@@ -2,11 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My GIS Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GIS & Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">  <!-- Linking to the CSS file -->
 </head>
 <body>
-    <h1>Welcome to My GIS & Data Science Portfolio</h1>
-    <p>Coming soon...</p>
+    <header>
+        <h1>Welcome to My GIS & Data Science Portfolio</h1>
+        <p>Explore my projects in machine learning, GIS, and data visualization.</p>
+    </header>
+
+    <h2>My Projects</h2>
+
+    <div class="project-grid">
+        <!-- Machine Learning Project -->
+        <div class="project">
+            <a href="Kaggle-Comp_ML_models.ipynb" target="_blank">
+                <img src="images/ml_project_placeholder.png" alt="Machine Learning">
+                <p>Machine Learning Models (Kaggle Competition)</p>
+            </a>
+        </div>
+
+        <!-- Placeholder for Future GIS Projects -->
+        <div class="project">
+            <a href="#">
+                <img src="images/qgis_map_placeholder.png" alt="GIS Project">
+                <p>GIS Analysis Project (Coming Soon)</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 My GIS & Data Science Portfolio</p>
+    </footer>
 </body>
 </html>
-
