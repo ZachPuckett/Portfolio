@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GIS & Data Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">  <!-- Linking to the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My GIS & Data Science Portfolio</h1>
-        <p>Explore my projects in machine learning, GIS, and data visualization.</p>
+        <h1>My GIS & Data Science Portfolio</h1>
+        <p>Explore my projects in Machine Learning, GIS, and Data Visualization.</p>
     </header>
 
     <h2>My Projects</h2>
@@ -17,17 +17,17 @@
     <div class="project-grid">
         <!-- Machine Learning Project -->
         <div class="project">
-            <a href="Kaggle-Comp_ML_models.ipynb" target="_blank">
+            <a href="projects/ml_project.html">
                 <img src="images/ml_project_placeholder.png" alt="Machine Learning">
                 <p>Machine Learning Models (Kaggle Competition)</p>
             </a>
         </div>
 
-        <!-- Placeholder for Future GIS Projects -->
+        <!-- GIS Project -->
         <div class="project">
-            <a href="#">
+            <a href="projects/gis_analysis.html">
                 <img src="images/qgis_map_placeholder.png" alt="GIS Project">
-                <p>GIS Analysis Project (Coming Soon)</p>
+                <p>GIS Spatial Analysis</p>
             </a>
         </div>
     </div>
