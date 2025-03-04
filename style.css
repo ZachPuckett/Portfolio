@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -8,11 +8,49 @@ body {
     color: #333;
 }
 
+/* Navigation Bar */
+nav {
+    background: #0056b3;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
 /* Header */
 header {
     background: linear-gradient(135deg, #0056b3, #007bff);
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px;
+    margin-top: 60px; /* Prevent content from overlapping with navbar */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-bottom: 5px solid #004494;
 }
@@ -71,15 +109,16 @@ h2 {
     font-size: 1.1rem;
 }
 
-/* Buttons & Links */
-a {
-    text-decoration: none;
-    color: #0056b3;
-    font-weight: bold;
+/* Contact Section */
+#contact {
+    background-color: #e3f2fd;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
 }
 
-a:hover {
-    color: #003366;
+#contact p {
+    font-size: 1.1rem;
 }
 
 /* Footer */
