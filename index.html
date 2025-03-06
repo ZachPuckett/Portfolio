@@ -85,9 +85,10 @@
             // Get the "Home" navbar link
             let homeLink = document.getElementById("home-link");
 
-            // Check if the current page is index.html (home)
-            if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
-            homeLink.style.display = "none"; // Hide the Home link
+            // Normalize pathname (handle cases where 'index.html' is missing)
+            let path = window.location.pathname;
+            if (path.endsWith("/") || path.endsWith("/index.html")) {
+                homeLink.style.display = "none"; // Hide the Home link on homepage
             }
         });
     </script>
