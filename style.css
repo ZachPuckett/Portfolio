@@ -3,13 +3,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #1e1e1e; /* Dark gray background */
+    color: #f4f4f4;
 }
 
 /* Navigation Bar */
 nav {
-    background: #0056b3;
+    background: #2a2e35; /* Dark gray with blue tint */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,8 +23,8 @@ nav {
 nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
-    white-space: nowrap; /* Prevents text wrapping */
+    color: #58a6ff; /* Light blue text */
+    white-space: nowrap;
 }
 
 nav ul {
@@ -33,45 +33,27 @@ nav ul {
     padding: 0;
     display: flex;
     gap: 20px;
-    flex-wrap: wrap; /* Ensures items don't overflow */
+    flex-wrap: wrap;
     justify-content: flex-end;
-}
-
-nav ul li {
-    display: inline-block;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #f4f4f4;
     font-size: 1.1rem;
+    padding: 10px;
     transition: color 0.3s;
-    padding: 10px; /* Adds spacing */
-    white-space: nowrap; /* Prevents text from wrapping */
 }
 
 nav ul li a:hover {
-    color: #ffdd57;
-}
-
-/* Make Navigation Responsive */
-@media (max-width: 900px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
+    color: #58a6ff; /* Light blue hover effect */
 }
 
 /* Image Slider */
 .slider {
     display: flex;
     justify-content: center;
-    margin: 40px auto;
+    gap: 15px; /* Adds spacing between images */
     overflow: hidden;
     padding: 20px;
 }
@@ -87,14 +69,8 @@ nav ul li a:hover {
 .intro {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #0056b3, #007bff);
+    background: linear-gradient(135deg, #2a2e35, #58a6ff);
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.intro h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
 }
 
 /* Project Grid */
@@ -106,14 +82,15 @@ nav ul li a:hover {
 .project-grid {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     margin: 20px auto;
     flex-wrap: wrap;
 }
 
 .project {
     position: relative;
-    width: 280px;
+    width: 220px;
+    height: 220px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
@@ -126,39 +103,22 @@ nav ul li a:hover {
 
 .project img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
     border-radius: 8px;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 86, 179, 0.8);
-    color: white;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    font-weight: bold;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.project:hover .overlay {
-    opacity: 1;
 }
 
 /* Contact Section */
 #contact {
     text-align: center;
     padding: 40px;
-    background-color: #e3f2fd;
+    background-color: #2a2e35;
     border-radius: 10px;
     margin-top: 40px;
 }
 
 .social-icons a {
-    color: #0056b3;
+    color: #58a6ff;
     font-size: 2rem;
     margin: 10px;
     transition: color 0.3s ease-in-out;
@@ -172,7 +132,7 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: #0056b3;
+    background: #2a2e35;
     color: white;
     font-size: 1rem;
 }
