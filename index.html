@@ -8,23 +8,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
-    <!-- Hide Navbar on Home Page, Show Only in Projects -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const path = window.location.pathname;
-            if (path.includes("projects")) {
-                document.querySelector("nav").classList.add("projects-page");
-            }
-        });
-    </script>
-
-    <!-- Navigation Bar (Hidden on Home Page) -->
+    <!-- Navigation Bar -->
     <nav>
-        <div class="logo">My Portfolio</div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects/ml_project.html">Machine Learning</a></li>
@@ -33,7 +21,7 @@
         </ul>
     </nav>
 
-    <!-- Image Slider (Fixed Image Size & Spacing) -->
+    <!-- Image Slider -->
     <section class="slider">
         <div><img src="images/ML_Tree.png" alt="ML Competition"></div>
         <div><img src="images/Lab5_Kent.png" alt="Mapping Fire Dept. Incidents"></div>
@@ -80,20 +68,18 @@
         <p>© 2024 My GIS & Data Science Portfolio</p>
     </footer>
 
-    <!-- Slider Autoplay Speed & Smooth Scrolling -->
     <script>
         $(document).ready(function(){
             $('.slider').slick({
                 autoplay: true,
-                autoplaySpeed: 2000, /* Faster Speed */
+                autoplaySpeed: 1800,
                 infinite: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 arrows: false,
                 dots: false,
                 centerMode: true,
-                variableWidth: false,
-                cssEase: 'linear'
+                variableWidth: false
             });
         });
     </script>
