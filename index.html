@@ -79,6 +79,18 @@
             });
         });
     </script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the "Home" navbar link
+            let homeLink = document.getElementById("home-link");
+
+            // Check if the current page is index.html (home)
+            if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
+            homeLink.style.display = "none"; // Hide the Home link
+            }
+        });
+    </script>
 
 </body>
 </html>
