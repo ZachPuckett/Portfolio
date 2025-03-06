@@ -3,59 +3,77 @@ body {
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e; /* Dark gray */
-    color: #f4f4f4;
-    text-align: center;
+    background-color: #2E2E2E; /* Dark Gray Background */
+    color: #D3D3D3; /* Light Gray Text */
 }
 
 /* Navigation Bar */
 nav {
-    background: #2c3e50;
+    background: #1C1C1C; /* Darker Gray */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 15px 20px;
-    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    display: none; /* Hidden on Home Page */
 }
 
-/* Show Navbar in Projects */
-.projects-page nav {
-    display: flex !important;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
-/* Slider */
+nav ul li a {
+    text-decoration: none;
+    color: #D3D3D3;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #63B8FF; /* Light Blue on Hover */
+}
+
+/* Image Slider */
 .slider {
     display: flex;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
-    padding: 10px 0;
+    padding: 20px;
 }
 
 .slider img {
-    width: 300px; /* Reduced image size */
-    height: 250px;
+    width: 75%; /* Reduce size of images */
+    height: 300px; /* Fixed height for uniformity */
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 0 10px; /* Adds space between images */
 }
 
 /* Project Grid */
+.projects {
+    text-align: center;
+    margin: 40px auto;
+}
+
+/* Restore Hover Effect for Project Buttons */
 .project-grid {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin: 20px auto;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .project {
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
@@ -68,11 +86,11 @@ nav {
     object-fit: cover;
 }
 
-/* Hover Effect for Project Titles */
+/* Title Appears on Hover */
 .overlay {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 86, 179, 0.8);
+    background: rgba(99, 184, 255, 0.8); /* Light Blue */
     color: white;
     width: 100%;
     text-align: center;
@@ -82,6 +100,40 @@ nav {
     transition: opacity 0.3s;
 }
 
+/* Hover Effect */
+.project:hover {
+    transform: translateY(-5px);
+}
+
 .project:hover .overlay {
     opacity: 1;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 40px;
+    background-color: #1C1C1C;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: #63B8FF;
+    font-size: 2rem;
+    margin: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #D3D3D3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1C1C1C;
+    color: #D3D3D3;
+    font-size: 1rem;
 }
