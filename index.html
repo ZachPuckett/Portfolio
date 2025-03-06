@@ -11,8 +11,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
+
+    <!-- Show Navigation Bar Only on Project Pages -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const path = window.location.pathname;
+            if (path.includes("projects")) {
+                document.querySelector("nav").style.display = "flex";
+            }
+        });
+    </script>
+
+    <!-- Navigation Bar (Hidden on Home Page) -->
+    <nav style="display: none;">
         <div class="logo">My Portfolio</div>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -80,10 +91,10 @@
                 arrows: false,
                 dots: false,
                 centerMode: true,
-                variableWidth: false
+                variableWidth: false,
+                cssEase: 'linear'
             });
         });
     </script>
 </body>
 </html>
-
