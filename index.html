@@ -12,18 +12,18 @@
 </head>
 <body>
 
-    <!-- Show Navigation Bar Only on Project Pages -->
+    <!-- Hide Navbar on Home Page, Show Only in Projects -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const path = window.location.pathname;
             if (path.includes("projects")) {
-                document.querySelector("nav").style.display = "flex";
+                document.querySelector("nav").classList.add("projects-page");
             }
         });
     </script>
 
-    <!-- Navigation Bar (Hidden on Home Page, Visible on Projects) -->
-    <nav style="display: none;">
+    <!-- Navigation Bar (Hidden on Home Page) -->
+    <nav>
         <div class="logo">My Portfolio</div>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -33,7 +33,7 @@
         </ul>
     </nav>
 
-    <!-- Image Slider -->
+    <!-- Image Slider (Fixed Image Size & Spacing) -->
     <section class="slider">
         <div><img src="images/ML_Tree.png" alt="ML Competition"></div>
         <div><img src="images/Lab5_Kent.png" alt="Mapping Fire Dept. Incidents"></div>
@@ -80,11 +80,12 @@
         <p>© 2024 My GIS & Data Science Portfolio</p>
     </footer>
 
+    <!-- Slider Autoplay Speed & Smooth Scrolling -->
     <script>
         $(document).ready(function(){
             $('.slider').slick({
                 autoplay: true,
-                autoplaySpeed: 1800,
+                autoplaySpeed: 2000, /* Faster Speed */
                 infinite: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -96,5 +97,6 @@
             });
         });
     </script>
+
 </body>
 </html>
