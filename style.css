@@ -8,6 +8,41 @@ body {
     text-align: center;
 }
 
+/* Navigation Bar */
+nav {
+    background: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: none; /* Hidden on Home Page */
+}
+
+/* Show Navbar in Projects */
+.projects-page nav {
+    display: flex !important;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.slider img {
+    width: 300px; /* Reduced image size */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 10px; /* Adds space between images */
+}
+
 /* Project Grid */
 .project-grid {
     display: flex;
@@ -33,6 +68,7 @@ body {
     object-fit: cover;
 }
 
+/* Hover Effect for Project Titles */
 .overlay {
     position: absolute;
     bottom: 0;
