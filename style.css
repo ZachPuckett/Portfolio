@@ -93,6 +93,12 @@ nav ul li a:hover {
     margin: 0 auto; /* Centers the entire container */
 }
 
+.ml-project-container iframe, 
+.ml-project-container img {
+    display: block;
+    margin: 0 auto; /* Centers iframes and images */
+}
+
 /* Title Appears on Hover */
 .overlay {
     position: absolute;
