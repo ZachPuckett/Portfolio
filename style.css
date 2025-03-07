@@ -86,6 +86,13 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
+/* Center all content in the Machine Learning project page */
+.ml-project-container {
+    text-align: center; /* Centers all text elements */
+    max-width: 800px; /* Keeps content readable */
+    margin: 0 auto; /* Centers the entire container */
+}
+
 /* Title Appears on Hover */
 .overlay {
     position: absolute;
