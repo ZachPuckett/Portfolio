@@ -7,36 +7,64 @@ body {
     color: #D3D3D3; /* Light Gray Text */
 }
 
-/* Navigation Bar */
-nav {
-    background: #1C1C1C; /* Darker Gray */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 20px;
-    width: 100%;
-    top: 0;
+/* Hamburger Menu */
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    left: 15px;
     z-index: 1000;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
+/* Hamburger Icon */
+.menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #D3D3D3;
+    transition: color 0.3s ease-in-out;
 }
 
-nav ul li a {
+.menu-icon:hover {
+    color: #63B8FF; /* Light blue on hover */
+}
+
+/* Initially Hidden Menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: rgba(28, 28, 28, 0.9); /* Dark transparent background */
+    width: 180px;
+    display: none; /* Hidden by default */
+    border-radius: 5px;
+}
+
+/* Show Menu on Hover */
+.hamburger-menu:hover .menu {
+    display: block;
+}
+
+/* Menu Items */
+.menu li {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Menu Links */
+.menu li a {
     text-decoration: none;
     color: #D3D3D3;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-    padding: 10px;
+    display: block;
+    padding: 8px 15px;
+    transition: background 0.3s ease-in-out;
 }
 
-nav ul li a:hover {
-    color: #63B8FF; /* Light Blue on Hover */
+/* Hover Effect */
+.menu li a:hover {
+    background: #63B8FF;
+    color: #1C1C1C;
 }
 
 /* Image Slider */
