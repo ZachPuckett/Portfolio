@@ -103,10 +103,10 @@ nav ul li a:hover {
 .back-button {
     color: white; /* Makes text white */
     text-decoration: none; /* Removes underline */
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     padding: 10px 15px;
-    background: #3a6186; /* Optional: Background color */
+    background: none; /* Optional: Background color */
     border-radius: 5px;
     display: inline-block;
     transition: background 0.3s ease-in-out;
@@ -167,7 +167,7 @@ nav ul li a:hover {
 
 .welcome-section {
     text-align: center;
-    padding: 60px 20px;
+    padding: 120px 20px;
     background: linear-gradient(135deg, #3a6186, #89253e); /* Gradient Background */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
