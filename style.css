@@ -7,48 +7,47 @@ body {
     color: #D3D3D3; /* Light Gray Text */
 }
 
-/* Hamburger Menu */
+/* Hamburger Menu - Now Full Width */
 .hamburger-menu {
     position: fixed;
-    top: 15px;
-    left: 15px;
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust width as needed */
+    height: 100vh; /* Make it take full height */
+    background: rgba(28, 28, 28, 0.9); /* Semi-transparent dark gray */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
     z-index: 1000;
+    transform: translateX(-100%); /* Initially off-screen */
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Hamburger Icon */
 .menu-icon {
-    font-size: 1.8rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #D3D3D3;
     transition: color 0.3s ease-in-out;
 }
 
-.menu-icon:hover {
-    color: #63B8FF; /* Light blue on hover */
+/* When hovering, show the full menu */
+.hamburger-menu:hover {
+    transform: translateX(0); /* Slide in */
 }
 
-/* Initially Hidden Menu */
+/* Navigation Menu inside */
 .menu {
     list-style: none;
     padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background: rgba(28, 28, 28, 0.9); /* Dark transparent background */
-    width: 180px;
-    display: none; /* Hidden by default */
-    border-radius: 5px;
-}
-
-/* Show Menu on Hover */
-.hamburger-menu:hover .menu {
-    display: block;
+    margin: 20px 0 0 0;
+    width: 100%;
 }
 
 /* Menu Items */
 .menu li {
-    padding: 12px;
+    padding: 15px 20px;
     text-align: left;
 }
 
@@ -56,15 +55,36 @@ body {
 .menu li a {
     text-decoration: none;
     color: #D3D3D3;
+    font-size: 1.2rem;
     display: block;
-    padding: 8px 15px;
     transition: background 0.3s ease-in-out;
+    padding: 10px;
 }
 
-/* Hover Effect */
 .menu li a:hover {
-    background: #63B8FF;
+    background: #63B8FF; /* Light blue hover effect */
     color: #1C1C1C;
+}
+
+/* Social Icons at the Bottom */
+.menu .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: auto;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.menu .social-icons a {
+    font-size: 1.8rem;
+    color: #D3D3D3;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.menu .social-icons a:hover {
+    color: #63B8FF; /* Light blue hover effect */
 }
 
 /* Image Slider */
