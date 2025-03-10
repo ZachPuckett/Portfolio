@@ -127,7 +127,7 @@ iframe {
     /* background: linear-gradient(135deg, #3a6186, #89253e); */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
+    margin: 0;
 }
 
 /* Image Slider */
