@@ -37,7 +37,7 @@ body {
     background: rgba(28, 28, 28, 0.8);
     width: 200px;
     border-radius: 5px;
-    margin: 50px;
+    margin: -50px;
 }
 
 .hamburger-menu:hover .menu {
