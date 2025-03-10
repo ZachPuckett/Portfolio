@@ -150,6 +150,7 @@ iframe {
 .projects {
     text-align: center;
     margin: 40px auto;
+    margin-top: 50px;
 }
 
 /* Restore Hover Effect for Project Buttons */
