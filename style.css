@@ -7,48 +7,49 @@ body {
     color: #D3D3D3; /* Light Gray Text */
 }
 
-/* Hamburger Menu - Now Full Width */
+/* Hamburger Menu */
 .hamburger-menu {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px; /* Adjust width as needed */
-    height: 100vh; /* Make it take full height */
-    background: rgba(28, 28, 28, 0.9); /* Semi-transparent dark gray */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
+    top: 15px;
+    left: 15px;
     z-index: 1000;
-    transform: translateX(-100%); /* Initially off-screen */
-    transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(28, 28, 28, 0.9);
+    padding: 15px;
+    border-radius: 5px;
 }
 
 /* Hamburger Icon */
 .menu-icon {
     font-size: 2rem;
     cursor: pointer;
-    color: #D3D3D3;
+    color: white;
+    display: block;
     transition: color 0.3s ease-in-out;
 }
 
-/* When hovering, show the full menu */
-.hamburger-menu:hover {
-    transform: translateX(0); /* Slide in */
+/* Show/Hide Menu */
+.menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: rgba(28, 28, 28, 0.9);
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-/* Navigation Menu inside */
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0 0 0;
-    width: 100%;
+.hamburger-menu:hover .menu {
+    display: block;
 }
 
 /* Menu Items */
 .menu li {
-    padding: 15px 20px;
-    text-align: left;
+    padding: 10px;
 }
 
 /* Menu Links */
@@ -71,20 +72,20 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: auto;
-    padding-top: 20px;
-    width: 100%;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .menu .social-icons a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #D3D3D3;
     transition: color 0.3s ease-in-out;
     text-decoration: none;
 }
 
 .menu .social-icons a:hover {
-    color: #63B8FF; /* Light blue hover effect */
+    color: #63B8FF;
 }
 
 /* Content Wrapper */
@@ -94,12 +95,23 @@ body {
     text-align: center;
 }
 
+/* Ensure Project Pages (Like Stats) are Boxed Similar to Jupyter */
+.project-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #1C1C1C;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Iframe Styling */
 iframe {
-    width: 90%;
-    height: 80vh;
+    width: 100%;
+    height: 700px;
     border: none;
     background: white;
+    display: block;
 }
 
 /* Image Slider */
@@ -112,11 +124,11 @@ iframe {
 }
 
 .slider img {
-    width: 75%; /* Reduce size of images */
-    height: 300px; /* Fixed height for uniformity */
+    width: 75%;
+    height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    margin: 0 5px; /* Adds space between images */
+    margin: 0 5px;
 }
 
 /* Project Grid */
@@ -151,40 +163,40 @@ iframe {
 
 /* Center all content in the Machine Learning project page */
 .ml-project-container {
-    text-align: center; /* Centers all text elements */
-    max-width: 800px; /* Keeps content readable */
-    margin: 0 auto; /* Centers the entire container */
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .ml-project-container iframe, 
 .ml-project-container img {
     display: block;
-    margin: 0 auto; /* Centers iframes and images */
+    margin: 0 auto;
 }
 
-/* Back Button Customization - ml_project.html */
+/* Back Button Customization */
 .back-button {
-    color: white; /* Makes text white */
-    text-decoration: none; /* Removes underline */
+    color: white;
+    text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
     padding: 10px 15px;
-    background: none; /* Optional: Background color */
+    background: none;
     border-radius: 5px;
     display: inline-block;
     transition: background 0.3s ease-in-out;
 }
 
 .back-button:hover {
-    margin-top: 20px; /* Adjust space above the button */
-    background: #2a4d66; /* Darker color on hover */
+    margin-top: 20px;
+    background: #2a4d66;
 }
 
 /* Title Appears on Hover */
 .overlay {
     position: absolute;
     bottom: 0;
-    background: rgba(99, 184, 255, 0.8); /* Light Blue */
+    background: rgba(99, 184, 255, 0.8);
     color: white;
     width: 100%;
     text-align: center;
@@ -232,7 +244,7 @@ iframe {
 .welcome-section {
     text-align: center;
     padding: 120px 20px;
-    background: linear-gradient(135deg, #3a6186, #89253e); /* Gradient Background */
+    background: linear-gradient(135deg, #3a6186, #89253e);
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
