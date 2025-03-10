@@ -113,7 +113,7 @@ iframe {
 }
 
 /* Apply the Background to Both Introduction & Image Slider */
-.welcome+slider-section {
+.welcome_slider-section {
     text-align: center;
     padding: 80px 20px;
     background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
