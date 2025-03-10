@@ -112,6 +112,27 @@ iframe {
     display: block;
 }
 
+/* Apply the Background to Both Introduction & Image Slider */
+.hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 120px 20px;
+    /* background: linear-gradient(135deg, #3a6186, #89253e); */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
 /* Image Slider */
 .slider {
     display: flex;
@@ -260,15 +281,6 @@ iframe {
     margin: 0 auto;
 }
 
-.welcome-section {
-    text-align: center;
-    padding: 120px 20px;
-    background: linear-gradient(135deg, #3a6186, #89253e);
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin: 20px auto;
-}
 
 /* Footer */
 footer {
