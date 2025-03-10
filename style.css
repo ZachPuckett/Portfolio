@@ -172,6 +172,26 @@ iframe {
     margin: 0 auto;
 }
 
+/* Center all content in the Stats project page */
+.stats-project-container {
+    text-align: center;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #1C1C1C; /* Dark grey background like ML */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure iframe fills the container */
+.stats-project-container iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    background: white;
+    display: block;
+}
+
 /* Back Button Customization */
 .back-button {
     color: white;
