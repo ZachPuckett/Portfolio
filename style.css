@@ -87,6 +87,21 @@ body {
     color: #63B8FF; /* Light blue hover effect */
 }
 
+/* Content Wrapper */
+.content {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Iframe Styling */
+iframe {
+    width: 90%;
+    height: 80vh;
+    border: none;
+    background: white;
+}
+
 /* Image Slider */
 .slider {
     display: flex;
