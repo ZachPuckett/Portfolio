@@ -104,16 +104,15 @@
     </script>
     
     <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let homeLink = document.getElementById("home-link");
+        document.addEventListener("DOMContentLoaded", function () {
+            let menuIcon = document.querySelector(".menu-icon");
+            let menu = document.querySelector(".hamburger-menu");
 
-        // Normalize pathname to handle cases where 'index.html' is missing
-        let path = window.location.pathname;
-        if (path.endsWith("/") || path.endsWith("/index.html")) {
-            homeLink.style.display = "none"; // Hide the Home link on homepage
-        }
+        menuIcon.addEventListener("click", function () {
+            menu.classList.toggle("open"); // Toggle menu open/closed
+        });
     });
-</script>
+    </script>
 
 </body>
 </html>
