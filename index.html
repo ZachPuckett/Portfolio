@@ -104,12 +104,19 @@
     </script>
     
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let menuIcon = document.querySelector(".menu-icon");
-            let menu = document.querySelector(".hamburger-menu");
+    document.addEventListener("DOMContentLoaded", function () {
+        let menuIcon = document.querySelector(".menu-icon");
+        let menu = document.querySelector(".menu");
 
         menuIcon.addEventListener("click", function () {
-            menu.classList.toggle("open"); // Toggle menu open/closed
+            menu.classList.toggle("open"); // Toggle ONLY the menu, not the whole container
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener("click", function (event) {
+            if (!menuIcon.contains(event.target) && !menu.contains(event.target)) {
+                menu.classList.remove("open");
+            }
         });
     });
     </script>
