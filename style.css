@@ -16,9 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(28, 28, 28, 0.9);
     padding: 15px;
-    border-radius: 5px;
 }
 
 /* Hamburger Icon */
