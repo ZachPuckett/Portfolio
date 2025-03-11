@@ -33,8 +33,8 @@ body {
     display: none;
     list-style: none;
     position: absolute;
-    top: 22px;
-    left: 117px;
+    top: 28px;
+    left: 119px;
     transform: translateX(-50%);
     background: rgba(28, 28, 28, 0.8);
     width: 175px; /* Perfect at 200 - changed to test things out */
