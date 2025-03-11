@@ -33,11 +33,11 @@ body {
     display: none;
     list-style: none;
     position: absolute;
-    top: 25px;
+    top: 22px;
     left: 117px;
     transform: translateX(-50%);
     background: rgba(28, 28, 28, 0.8);
-    width: 200px;
+    width: 175px; /* Perfect at 200 - changed to test things out */
     padding: 15px;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
 }
