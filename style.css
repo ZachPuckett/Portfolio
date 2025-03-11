@@ -116,7 +116,7 @@ iframe {
 /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
     text-align: center;
-    /*padding: 80px 20px; */
+    padding: 80px 40px; 
     background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -262,7 +262,8 @@ iframe {
 #contact {
     text-align: center;
     background-color: #1C1C1C;
-    margin: 0;
+    /* margin: 0; */
+    padding: 80px 40px; 
 }
 
 .social-icons a {
