@@ -34,7 +34,7 @@ body {
     list-style: none;
     position: absolute;
     top: 20px;
-    margin-left: 157px; /* change from 30 - too far left */
+    margin-left: 105px; /* change from 30 - too far left */
     transform: translateX(-50%);
     background: rgba(28, 28, 28, 0.8);
     width: 175px; /* Perfect at 200 - changed to test things out */
