@@ -305,7 +305,7 @@ iframe {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: #2E4A3E;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    background: linear-gradient(135deg, #7B6652, #5C4B3A);/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     /* margin: 50px auto;  new addition to test */
     border-radius: 10px; /* new addition to test */
 }
@@ -314,7 +314,7 @@ iframe {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: #7A4E2F;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    background: linear-gradient(135deg, #7B6652, #5C4B3A);/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     /* margin: 50px auto; new addition to test */
     border-radius: 10px; /* new addition to test */
 }
