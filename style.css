@@ -305,7 +305,7 @@ iframe {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    background: #2E4A3E;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     /* margin: 50px auto;  new addition to test */
     border-radius: 10px; /* new addition to test */
 }
@@ -314,20 +314,12 @@ iframe {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    background: #7A4E2F;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     /* margin: 50px auto; new addition to test */
     border-radius: 10px; /* new addition to test */
 }
 
-.stats-project-container {
-    text-align: center;
-    max-width: 900px;
-    margin: 50px auto;
-    background: #1C1C1C; /* Dark grey background like ML */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px **20** rgba(85, 41, 58, 0.2);
-}
+
 
 
 /* fix bullet list alignment */
