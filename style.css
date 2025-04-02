@@ -319,6 +319,14 @@ iframe {
     border-radius: 10px; /* new addition to test */
 }
 
+/* fix bullet list alignment */
+.QGIS-project-container-1 ul,
+.QGIS-project-container-1 li,
+.QGIS-project-container-2 ul,
+.QGIS-project-container-2 li {
+    text-align: left;
+    margin-left: 20px;
+}
 
 /* Footer */
 footer {
