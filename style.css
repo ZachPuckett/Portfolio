@@ -150,6 +150,10 @@ iframe {
   height: 80px; /* Adjust to your liking */
 }
 
+.spacer-3 {
+  height: 20px; /* Adjust to your liking */
+}
+
     /* Image Slider */
 .slider {
     display: flex;
