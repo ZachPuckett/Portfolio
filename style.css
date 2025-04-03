@@ -141,6 +141,11 @@ iframe {
     margin: 0;
 }
 
+    /* creates blank space */
+.spacer {
+  height: 100px; /* Adjust to your liking */
+}
+
     /* Image Slider */
 .slider {
     display: flex;
