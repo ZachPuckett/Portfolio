@@ -337,10 +337,13 @@ iframe {
 .QGIS-project-container-2 {
     text-align: center;
     max-width: 800px;
-    margin: 30px 30px;
+    margin: 50px;
     padding: 10px 10px;
     background: linear-gradient(135deg, #8B5E3C, #3E2F1C);
-    /* margin: 50px auto; new addition to test */
+    margin-left: 50px auto;
+    margin-right: 50px auto;
+    margin-top: 50px auto;
+    margin-bottom: 50px auto;
     border-radius: 0px; /* new addition to test */
 }
 
