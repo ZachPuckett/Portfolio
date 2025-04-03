@@ -338,7 +338,7 @@ iframe {
     text-align: center;
     max-width: 800px;
     margin: 50px auto;
-    padding: 10px;
+    padding: 10px 10px;
     background: linear-gradient(135deg, #8B5E3C, #3E2F1C);
     /* margin: 50px auto; new addition to test */
     border-radius: 0px; /* new addition to test */
