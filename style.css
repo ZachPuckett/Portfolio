@@ -276,7 +276,7 @@ iframe {
 
 /* ^ STATS PROJECT STUFF ------------------ */
 
-/* Back Button Customization */
+/* BACK BUTTON -----------------------*/
 .back-button {
     color: white;
     text-decoration: none;
@@ -294,9 +294,10 @@ iframe {
 .back-button:hover {
     background: #A0335C;
 }
+/* ^ BACK BUTTON -----------------------*/
 
 
-/* Contact Section */
+/* CONTACT SECTION ---------------- */
 #contact {
     text-align: center;
     background-color: #1C1C1C;
@@ -315,12 +316,15 @@ iframe {
     color: #D3D3D3;
 }
 
+/* ^ CONTACT SECTION ---------------- */
+
 .project-page {
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
 }
 
+/* TIMBER HARVEST PROEJCT ---------------- */
 .QGIS-project-container-1 {
     text-align: center;
     max-width: 800px;
@@ -337,13 +341,13 @@ iframe {
     padding: 10px;
     background: linear-gradient(135deg, #8B5E3C, #3E2F1C);
     /* margin: 50px auto; new addition to test */
-    border-radius: 10px; /* new addition to test */
+    border-radius: 0px; /* new addition to test */
 }
 
 
 
 
-/* fix bullet list alignment */
+    /* fix bullet list alignment */
 .QGIS-project-container-1 ul,
 .QGIS-project-container-1 li,
 .QGIS-project-container-2 ul,
@@ -351,6 +355,8 @@ iframe {
     text-align: left;
     margin-left: 20px;
 }
+
+/* ^ TIMBER HARVEST PROEJCT ---------------- */
 
 /* Footer */
 footer {
