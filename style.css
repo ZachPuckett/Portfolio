@@ -379,6 +379,29 @@ iframe {
 
 /* ^ TIMBER HARVEST PROEJCT ---------------- */
 
+/* KENT FIRES PROEJCT ---------------- */
+.kent-project-container-1 {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px; 
+    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    /* margin: 50px auto;  new addition to test */
+    border-radius: 0px; 
+}
+
+.kent-project-container-2 {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px; 
+    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    /* margin: 50px auto;  new addition to test */
+    border-radius: 0px; 
+}
+
+/* ^ KENT FIRES PROEJCT ---------------- */
+
 /* MyFinancesUW PROJECT ---------------------*/
 
 .pdf-content-wrapper {
