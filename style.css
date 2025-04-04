@@ -344,12 +344,14 @@ iframe {
     margin: 50px auto;
     padding: 10px; 
     background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
-    /* margin: 50px auto;  new addition to test */
+    margin: 0px auto;  new addition to test 
     border-radius: 0px; 
 }
 .QGIS-project-container-2 {
     text-align: center;
     max-width: 800px;
+    justify-content: center; /* center horizontally */
+    /*  align-items: center;     center vertically */
     /* margin: 50px auto; - puts space on the top and bottom */
     padding: 30px;
     /* background: linear-gradient(135deg, #8B5E3C, #3E2F1C); */
