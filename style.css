@@ -311,7 +311,7 @@ iframe {
 
 
 /* CONTACT SECTION ---------------- */
-#contact {
+.contact {
     text-align: center;
     background-color: #1C1C1C;
     /* margin: 0; */
@@ -355,7 +355,7 @@ iframe {
     padding: 30px;
     background: linear-gradient(135deg, #8B5E3C, #3E2F1C);
     border-radius: 0px; /* new addition to test */
-    height: 600px; /* adjusts vertical height */
+    height: 400px; /* adjusts vertical height */
 }
 
 .timber-harvest-container {
