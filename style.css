@@ -342,7 +342,7 @@ iframe {
     text-align: center;
     /* max-width: 800px; */
     /* margin: 50px auto; - extra unnessecary */
-    padding: 0 100px; 
+    padding: 10 300px; 
     background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     margin: 0px auto; /* new addition to test */
     border-radius: 0px; 
@@ -352,7 +352,7 @@ iframe {
     max-width: 800px;
     justify-content: center; /* center horizontally */
     align-items: center;    /*  center vertically */
-    margin-bottom: 30px;
+    margin: 0px auto;
     /* padding: 0 30px; */
     /* background: linear-gradient(135deg, #8B5E3C, #3E2F1C); */
     border-radius: 0px; /* new addition to test */
