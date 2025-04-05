@@ -341,7 +341,7 @@ iframe {
 .QGIS-project-container-1 {
     text-align: center;
     /* max-width: 800px; */
-    margin: 50px auto;
+    /* margin: 50px auto; - extra unnessecary */
     padding: 10px; 
     background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     margin: 0px auto; /* new addition to test */
@@ -410,21 +410,27 @@ iframe {
   text-align: center;
   padding: 40px 20px;
   font-family: 'Times New Roman', serif;
+  text-align: center;
+  margin: 50px auto;
+  background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+  border-radius: 0px; 
+    
 }
 
 .pdf-scroll-window {
-  width: 400px;
-  height: 600px;
+  width: 400px;   /* fixed width */
+  height: 600px;  /* fixed height */
   margin: 0 auto;
   border: 1px solid #ccc;
   background-color: white;
-  overflow-y: auto;
+  overflow-y: scroll;  /* force vertical scroll */
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
   scroll-behavior: smooth;
 }
 
 .pdf-scroll-window img {
-  width: 100%;
+  width: 100%;  /* scale image to container width */
+  height: auto; /* preserve aspect ratio */
   display: block;
   margin-bottom: 20px;
 }
