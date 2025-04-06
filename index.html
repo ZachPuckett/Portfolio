@@ -124,13 +124,12 @@
             <a href="https://linkedin.com/in/zachary-puckett-a2b4202b4" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </section>
-
     <script>
         $(document).ready(function(){
             $('.slider').slick({
                 autoplay: true,
-                autoplaySpeed: 1800,
-                infinite: true,
+                speed: 5000, // how long it takes to slide (higher = slower)
+                cssEase: 'linear', // makes it smooth and continuous
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 arrows: false,
