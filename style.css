@@ -340,7 +340,7 @@ iframe {
 /* TIMBER HARVEST PROEJCT ---------------- */
 .qgis-page-wrapper {
     background: #1C1C1C;
-    padding: 0 100px;
+    padding: 0 200px;
     border: 2px dashed red; /* just for testing! */
 } 
 
@@ -387,6 +387,11 @@ iframe {
 /* ^ TIMBER HARVEST PROEJCT ---------------- */
 
 /* KENT FIRES PROEJCT ---------------- */
+.kent-page-wrapper {
+    background: #1C1C1C;
+    padding: 0 200px;
+    border: 2px dashed red; /* just for testing! */
+} 
 .kent-project-container-1 {
     text-align: center;
     max-width: 800px;
