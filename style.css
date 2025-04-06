@@ -338,6 +338,11 @@ iframe {
 }
 
 /* TIMBER HARVEST PROEJCT ---------------- */
+.qgis-page-wrapper {
+    background: #1C1C1C;
+    padding: 0 100px;
+} 
+
 .QGIS-project-container-1 {
     text-align: center;
     /* max-width: 800px; */
