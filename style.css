@@ -6,7 +6,7 @@ body {
     background-color: #2E2E2E; /* Dark Gray Background */
     color: #D3D3D3; /* Light Gray Text */
 }
-body2{
+body.light-theme{
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
