@@ -10,8 +10,8 @@ body2{
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #F9F6EE; /* Dark Gray Background */
-    color: #353935; /* Light Gray Text */
+    background-color: #F9F6EE; /* Bone White Background */
+    color: #353935; /* Onyx Text */
 }
 
 /* MENU STUFF -------------------- */
@@ -395,7 +395,7 @@ iframe {
 
 /* KENT FIRES PROEJCT ---------------- */
 .kent-page-wrapper {
-    background: #EDEADE;
+    background: #EDEADE; /* Alabaster */
     padding: 0 200px;
     border: 2px dashed #1C1C1C; /* just for testing! */
 } 
