@@ -350,7 +350,7 @@ iframe {
     /* margin: 50px auto; - extra unnessecary */
     padding: 10 300px; 
     background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
-    margin: 0px auto; /* new addition to test */
+    margin: 20px auto; /* new addition to test */
     border-radius: 0px; 
 }
 .QGIS-project-container-2 {
@@ -390,12 +390,12 @@ iframe {
 .kent-page-wrapper {
     background: #1C1C1C;
     padding: 0 200px;
-    border: 2px dashed red; /* just for testing! */
+    /* border: 2px dashed red; /* just for testing! */
 } 
 .kent-project-container-1 {
     text-align: center;
     max-width: 800px;
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 10px; 
     background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     /* margin: 50px auto;  new addition to test */
