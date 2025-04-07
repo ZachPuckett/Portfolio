@@ -407,7 +407,7 @@ iframe {
     max-width: 800px;
     margin: 40px auto;
     padding: 10px; 
-    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     /* margin: 50px auto;  new addition to test */
     border-radius: 0px; 
 }
