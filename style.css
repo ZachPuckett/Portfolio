@@ -341,7 +341,7 @@ iframe {
 .qgis-page-wrapper {
     background: #1C1C1C;
     padding: 0 200px;
-    /* border: 2px dashed red; /* just for testing! */
+    border: 2px dashed #1C1C1C; /* just for testing! */
 } 
 
 .QGIS-project-container-1 {
