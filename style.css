@@ -239,23 +239,29 @@ iframe {
 /* ^ WELCOME SECTION STUFF ------------ */
 
 /* ML PROJECT STUFF ------------------- */
+.ml-page-wrapper {
+    background: #EDEADE; /* Alabaster */
+    padding: 0 200px;
+    border: 2px dashed #EDEADE; /* just for testing! */
+}
 
 .ml-project-container-1 {
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px; 
-    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
-    margin: 50px auto; /* new addition to test */
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
+    padding: 10px 300px; 
+    /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); not necesary with light bgrnd*/
+    margin: 20px auto; /* new addition to test */
     border-radius: 0px; /* new addition to test */
 }
+
 .ml-project-container-2 {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
     box-shadow: 0px 4px 8px **20** rgba(85, 41, 58, 0.2);
     padding: 20px;
-    background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     margin: 50px auto; /* new addition to test */
     border-radius: 10px; /* new addition to test */
 }
@@ -368,6 +374,7 @@ body.light-theme .back-button {
     margin: 20px auto; /* new addition to test */
     border-radius: 0px; 
 }
+    
 .QGIS-project-container-2 {
     text-align: center;
     max-width: 800px;
@@ -407,6 +414,7 @@ body.light-theme .back-button {
     padding: 0 200px;
     border: 2px dashed #EDEADE; /* just for testing! */
 } 
+    
 .kent-project-container-1 {
     text-align: center;
     max-width: 800px;
