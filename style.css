@@ -241,7 +241,7 @@ iframe {
 /* ML PROJECT STUFF ------------------- */
 .ml-page-wrapper {
     background: #EDEADE; /* Alabaster */
-    padding: 0 200px;
+    padding: 0 50px;
     border: 2px dashed #EDEADE; /* just for testing! */
 }
 
