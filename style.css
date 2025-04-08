@@ -149,7 +149,7 @@ iframe {
 
 .welcome-section {
     text-align: center;
-    padding: 80px 200px; /* 120px 20px old settings */
+    padding: 80px 120px; /* 120px 20px old settings */
     /* background: linear-gradient(135deg, #3a6186, #89253e); */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -179,7 +179,9 @@ iframe {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding: 20px;
+    margin: 0; /* new addition */
+    padding: 0; /* new addition */
+    /* padding: 20px; */
 }
 
 .slider img {
@@ -193,7 +195,7 @@ iframe {
     /* Project Grid */
 .projects {
     text-align: center;
-    margin: 120px 20px;
+    /* margin: 120px 20px; */
     margin-top: 50px;
 }
 
@@ -343,8 +345,8 @@ body.light-theme .back-button {
 #contact {
     text-align: center;
     background-color: #1C1C1C;
-    /* margin: 0; */
-    padding: 20px; 
+    margin: 0;
+    padding: 0;
 }
 
 .social-icons a {
