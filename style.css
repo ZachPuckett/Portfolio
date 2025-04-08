@@ -330,7 +330,7 @@ body.light-theme .back-button {
 }
 
 .back-button:hover {
-    background: #A0335C;
+    background: #EDEADE; /* #A0335C; - Welcome Page Color (purple-ish) */
 }
 /* ^ BACK BUTTON -----------------------*/
 
