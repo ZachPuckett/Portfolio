@@ -435,6 +435,14 @@ body.light-theme .back-button {
     border-radius: 0px; 
 }
 
+.kent-project-container-1 ul,
+.kent-project-container-1 li,
+.kent-project-container-2 ul,
+.kent-project-container-2 li {
+    text-align: left;
+    margin-left: 20px;
+}
+
 /* ^ KENT FIRES PROEJCT ---------------- */
 
 /* MyFinancesUW PROJECT ---------------------*/
