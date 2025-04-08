@@ -14,10 +14,6 @@ body.light-theme{
     color: #353935; /* Onyx Text */
 }
 
-body.light-theme .menu-icon {
-    color: rgb(28, 28, 28)
-}
-
 /* MENU STUFF -------------------- */
 
     /* Hamburger Menu */
@@ -39,6 +35,10 @@ body.light-theme .menu-icon {
     color: white;
     display: block;
     transition: color 0.3s ease-in-out;
+}
+
+body.light-theme .menu-icon {
+    color: rgb(28, 28, 28);
 }
 
     /* Show/Hide Menu */
@@ -313,6 +313,10 @@ iframe {
     transition: background 0.3s ease-in-out;
     margin-top: 20px;
     text-align: center;
+}
+
+body.light-theme .back-button {
+    color: color: rgb(28, 28, 28);
 }
 
 .back-button:hover {
