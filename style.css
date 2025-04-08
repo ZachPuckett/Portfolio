@@ -141,7 +141,7 @@ iframe {
     /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
     text-align: center;
-    padding: 80px 200px; 
+    padding: 80px 0px; 
     background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
