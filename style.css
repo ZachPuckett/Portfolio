@@ -165,6 +165,10 @@ iframe {
   height: 20px; /* Adjust to your liking */
 }
 
+.spacer-4 {
+  height: 50px; /* Adjust to your liking */
+}
+
     /* Image Slider */
 .slider {
     display: flex;
@@ -249,7 +253,7 @@ iframe {
     text-align: center;
     /* max-width: 800px; */
     /* margin: 0 auto; */
-    padding: 10px 300px; 
+    padding: 10px 200px; 
     /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); not necesary with light bgrnd*/
     margin: 20px auto; /* new addition to test */
     border-radius: 0px; /* new addition to test */
