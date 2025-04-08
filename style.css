@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Times New Roman', serif;
-    margin-top: -15px;
+    margin-top: 0px;
     padding: 0;
     background-color: #2E2E2E; /* Dark Gray Background */
     color: #D3D3D3; /* Light Gray Text */
@@ -467,7 +467,7 @@ body.light-theme .back-button {
 
 .scroll-track img {
   display: inline-block;
-  width: 300px;
+  width: 600px;
   height: auto;
   margin-right: 10px;
   border-radius: 5px;
