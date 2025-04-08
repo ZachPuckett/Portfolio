@@ -150,7 +150,7 @@ iframe {
 .welcome-section {
     text-align: center;
     padding: 120px 20px; /* 120px 20px old settings */
-    background: linear-gradient(135deg, #3a6186, #89253e); */
+    /* background: linear-gradient(135deg, #3a6186, #89253e); */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 0;
