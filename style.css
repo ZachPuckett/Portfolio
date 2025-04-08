@@ -384,6 +384,7 @@ body.light-theme .back-button {
     padding: 10 300px; 
     /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     margin: 20px auto; /* new addition to test */
+    margin-top: 20px;
     border-radius: 0px; 
 }
     
