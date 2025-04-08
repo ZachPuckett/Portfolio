@@ -454,7 +454,24 @@ body.light-theme .back-button {
     text-align: left;
     margin-left: 20px;
 }
+/* test html file */
+.scroll-frame {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  border: 4px solid #ccc;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
 
+.scroll-track img {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
 /* ^ KENT FIRES PROEJCT ---------------- */
 
 /* MyFinancesUW PROJECT ---------------------*/
