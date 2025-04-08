@@ -6,12 +6,16 @@ body {
     background-color: #2E2E2E; /* Dark Gray Background */
     color: #D3D3D3; /* Light Gray Text */
 }
-body.light-theme{
+body.light-theme {
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
     background-color: #F9F6EE; /* Bone White Background */
     color: #353935; /* Onyx Text */
+}
+
+body.welcome-section {
+    background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
 }
 
 /* MENU STUFF -------------------- */
@@ -145,7 +149,7 @@ iframe {
 
 .welcome-section {
     text-align: center;
-    padding: 120px 20px;
+    padding: 80px 200px; /* 120px 20px old settings */
     /* background: linear-gradient(135deg, #3a6186, #89253e); */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -189,7 +193,7 @@ iframe {
     /* Project Grid */
 .projects {
     text-align: center;
-    margin: 40px auto;
+    margin: 120px 20px;
     margin-top: 50px;
 }
 
