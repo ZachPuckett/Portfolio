@@ -156,6 +156,12 @@ iframe {
     margin: 0;
 }
 
+welcome-text-container {
+    max-width: 500px; /* adjust to taste */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
     /* creates blank space */
 .spacer {
   height: 100px; /* Adjust to your liking */
