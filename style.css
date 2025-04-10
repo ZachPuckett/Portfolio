@@ -193,6 +193,10 @@ iframe {
   height: 50px; /* Adjust to your liking */
 }
 
+.spacer-small {
+  height: 8px; /* Adjust to your liking */
+}
+
     /* Image Slider */
 .slider {
     display: flex;
