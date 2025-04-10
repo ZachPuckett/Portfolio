@@ -18,6 +18,10 @@ body.welcome-section {
     background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
 }
 
+body.light-theme footer {
+    color: #D3D3D3; /* Light gray to match dark footer background */
+}
+
 /* MENU STUFF -------------------- */
 
     /* Hamburger Menu */
