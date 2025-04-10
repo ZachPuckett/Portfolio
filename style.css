@@ -144,13 +144,14 @@ iframe {
 
 .main-page-wrapper {
     width: 100%;
+    background: linear-gradient(135deg, #3a6186, #89253e);
 }
 
     /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
     text-align: center;
     padding: 80px 0px; 
-    background: linear-gradient(135deg, #3a6186, #89253e); /* Same Background */
+    /* background: linear-gradient(135deg, #3a6186, #89253e); /* testing on main-page-wrapper-instead - 4:05 4/10 */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
