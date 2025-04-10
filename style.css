@@ -486,6 +486,37 @@ body.light-theme .back-button {
 }
 /* ^ KENT FIRES PROEJCT ---------------- */
 
+/* SEATTLE HEALTH EQUITY PROEJCT ---------------- */
+.seattle-health-equity-container-1 {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px; 
+    /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    /* margin: 50px auto;  new addition to test */
+    border-radius: 0px; 
+}
+
+.seattle-health-equity-container-2 {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 10px; 
+    /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
+    /* margin: 50px auto;  new addition to test */
+    border-radius: 0px; 
+}
+
+.seattle-health-equity-container-1 ul,
+.seattle-health-equity-container-1 li,
+.seattle-health-equity-container-2 ul,
+.seattle-health-equity-container-2 li {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* ^ SEATTLE HEALTH EQUITY PROEJCT ---------------- */
+
 /* MyFinancesUW PROJECT ---------------------*/
 .pdf-content-wrapper {
   max-width: 900px;
