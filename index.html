@@ -180,6 +180,30 @@
             });
         });
     </script>
+
+    <script> // Prevents slick carousal from reinitializing after user returns back to page
+    window.addEventListener('pageshow', function(event) {
+        // Detect if page was loaded from back/forward cache
+        if (event.persisted || performance.getEntriesByType("navigation")[0].type === "back_forward") {
+            $('.slider').slick('unslick'); // Destroy the existing slider instance
+
+            // Reinitialize Slick
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 0,
+                speed: 5000,
+                cssEase: 'linear',
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: false,
+                centerMode: true,
+                variableWidth: false
+            });
+        }
+    });
+    </script>
     
     <script>
     document.addEventListener("DOMContentLoaded", function () {
