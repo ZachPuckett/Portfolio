@@ -142,6 +142,10 @@ iframe {
 
 /* WELCOME SECTION STUFF ------------ */
 
+.main-page-wrapper {
+    padding: 0 200px;
+}
+
     /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
     text-align: center;
