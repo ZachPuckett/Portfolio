@@ -487,6 +487,11 @@ body.light-theme .back-button {
 /* ^ KENT FIRES PROEJCT ---------------- */
 
 /* SEATTLE HEALTH EQUITY PROEJCT ---------------- */
+.seattle-health-equity-page-wrapper {
+    background: #EDEADE; /* Alabaster */
+    padding: 0 200px;
+    border: 2px dashed #EDEADE; /* just for testing! */
+} 
 .seattle-health-equity-container-1 {
     text-align: center;
     max-width: 800px;
@@ -518,6 +523,11 @@ body.light-theme .back-button {
 /* ^ SEATTLE HEALTH EQUITY PROEJCT ---------------- */
 
 /* MyFinancesUW PROJECT ---------------------*/
+.myfinances-page-wrapper {
+    background: #EDEADE; /* Alabaster */
+    padding: 0 200px;
+    border: 2px dashed #EDEADE; /* just for testing! */
+} 
 .pdf-content-wrapper {
   max-width: 900px;
   margin: 0 auto;
@@ -529,25 +539,6 @@ body.light-theme .back-button {
   background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
   border-radius: 0px; 
     
-}
-
-.pdf-scroll-window {
-  width: 400px;   /* fixed width */
-  height: 600px;  /* fixed height */
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  background-color: white;
-  overflow-y: scroll;  /* force vertical scroll */
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-  scroll-behavior: smooth;
-}
-
-.pdf-scroll-window img {
-  width: 100%;  /* scale image to container width */
-  height: auto; /* preserve aspect ratio */
-  display: block;
-  margin-bottom: 20px;
-}
 /* ^ MyFinancesUW PROJECT ---------------------*/
 
 /* Footer */
