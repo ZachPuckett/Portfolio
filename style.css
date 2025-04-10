@@ -22,10 +22,6 @@ body.light-theme footer {
     color: #D3D3D3; /* Light gray to match dark footer background */
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* MENU STUFF -------------------- */
 
     /* Hamburger Menu */
