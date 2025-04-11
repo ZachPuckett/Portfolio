@@ -599,7 +599,7 @@ body.light-theme .back-button {
 
 .manhattan-veg-container-1 {
     text-align: center;
-    max-width: 800px;
+    max-width: 400px;
     margin: 20px auto;
     padding: 10px; 
     /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
@@ -608,7 +608,7 @@ body.light-theme .back-button {
 }
 .manhattan-veg-container-2 {
     text-align: center;
-    max-width: 800px;
+    max-width: 400px;
     justify-content: center; /* center horizontally */
     align-items: center;    /*  center vertically */
     margin: 0 auto;
