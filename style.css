@@ -593,6 +593,10 @@ body.light-theme .back-button {
     border: 2px dashed #EDEADE; /* just for testing! */
 } 
 
+.veg-content-wrapper {
+  text-align: center;
+}
+
 .manhattan-veg-container-1 {
     text-align: center;
     max-width: 800px;
