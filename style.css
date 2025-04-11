@@ -198,6 +198,38 @@ iframe {
   height: 8px; /* Adjust to your liking */
 }
 
+/* New slider */
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background: transparent;
+  padding: 20px 0;
+}
+
+.marquee-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 60s linear infinite;
+}
+
+.marquee-track img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
     /* Image Slider */
 .slider {
     display: flex;
