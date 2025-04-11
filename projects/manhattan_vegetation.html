@@ -36,18 +36,22 @@
     <div class="seattle-health-equity-container-1">
 
         <h1>Visualizing Vegetation Change in Manhattan with Google Earth Engine</h1>
+        
+     <div class="spacer-small"></div>
+        
           <p>This animated gif showcases the capabilities of Google Earth Engine to use satellite imagery for remote sensing.</p>
-          <p>This project was completed early into my GIS journey...</p>
+          <p>The project focused on detecting vegetation change in Manhattan by compositing and comparing satellite imagery throughout 2022.</p>
 
         <div class="spacer-small"></div>
-          <p>The analysis incorporated five variables—including insurance coverage and chronic illness rates—selected from public datasets, standardized into z-scores to form a composite index indicating areas of poor health outcomes.</p>
 
-          <ul>
-            <li>Health variables were selected based on variation, breadth, and non-redundancy using correlation plots.</li>
-            <li>Each selected variable was standardized to z-scores, then averaged (with or without weighting) to create the Health Equity Index.</li>
-            <li>Quintile classifications were used to identify areas of very low to very high equity needs, visualized with choropleth maps.</li>
-            <li>ArcGIS Pro tools including ‘Standardize Field’ and ‘Calculate Composite Index’ were used throughout, supporting both manual and automated workflows.</li>
-          </ul>
+
+        
+        <p>Images were filtered by date and cloud cover from the Sentinel-2 satellite collection, clipped to Manhattan’s boundary, and processed into monthly median composites for the year 2022. The Normalized Difference Vegetation Index (NDVI) was calculated for each month to visualize seasonal vegetation patterns across Manhattan.</p>
+            <ul>
+              <li>Sentinel-2 imagery was filtered by cloud cover, geographic bounds, and acquisition date for 2022.</li>
+              <li>Each month’s imagery was turned into a median composite to reduce cloud artifacts and noise.</li>
+              <li>NDVI was calculated by comparing near-infrared and red bands to measure vegetation presence.</li>
+            </ul>
     </div> 
 </div>
         <!-- <div class="kent-project-container-2"> -->
