@@ -211,7 +211,7 @@
     if (scrollTarget) {
       const targetElement = document.getElementById(scrollTarget) || document.querySelector(`.${scrollTarget}`);
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: "smooth" });
+        targetElement.scrollIntoView({ behavior: "auto" });
 
         // Optional: clean up the URL so #projects isn't saved on reload
         history.replaceState(null, "", window.location.pathname);
