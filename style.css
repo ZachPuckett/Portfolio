@@ -625,6 +625,14 @@ body.light-theme .back-button {
     border-radius: 0px; /* new addition to test */
     /* height: 400px; /* adjusts vertical height */
 }
+
+.manhattan-veg-container-3 img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
     
 .gif-sim {
   max-width: 400px;
