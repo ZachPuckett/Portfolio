@@ -575,6 +575,19 @@ body.light-theme .back-button {
     border-radius: 0px; /* new addition to test */
     /* height: 400px; /* adjusts vertical height */
 }
+
+.manhattan-veg-project-container-3 {
+    text-align: center;
+    max-width: 800px;
+    justify-content: center; /* center horizontally */
+    align-items: center;    /*  center vertically */
+    margin: 0px auto;
+    /* padding: 0 30px; */
+    /* background: linear-gradient(135deg, #8B5E3C, #3E2F1C); */
+    border-radius: 0px; /* new addition to test */
+    /* height: 400px; /* adjusts vertical height */
+}
+    
 .gif-sim {
   max-width: 400px;
   margin: 40px auto;
