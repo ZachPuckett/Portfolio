@@ -554,6 +554,21 @@ body.light-theme .back-button {
     
 /* ^ MyFinancesUW PROJECT ---------------------*/
 
+/* Manhattan Vegetation PROJECT ---------------------*/
+.gif-sim {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.gif-sim img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ^ Manhattan Vegetation PROJECT ---------------------*/
+
 /* Footer */
 footer {
     text-align: center;
