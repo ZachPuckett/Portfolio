@@ -564,7 +564,7 @@ body.light-theme .back-button {
     /* margin: 50px auto;  new addition to test */
     border-radius: 0px; 
 }
-.manhattan-veg-project-container-2 {
+.manhattan-veg-container-2 {
     text-align: center;
     max-width: 800px;
     justify-content: center; /* center horizontally */
@@ -576,7 +576,7 @@ body.light-theme .back-button {
     /* height: 400px; /* adjusts vertical height */
 }
 
-.manhattan-veg-project-container-3 {
+.manhattan-veg-container-3 {
     text-align: center;
     max-width: 800px;
     justify-content: center; /* center horizontally */
