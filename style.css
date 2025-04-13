@@ -456,6 +456,13 @@ body.light-theme .back-button {
     /* height: 400px; /* adjusts vertical height */
 }
 
+.QGIS-project-container-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .timber-harvest-container {
     text-align: center;
     max-width: 800px;
