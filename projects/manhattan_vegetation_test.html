@@ -50,8 +50,14 @@
               <li>NDVI was calculated by comparing near-infrared and red bands to measure vegetation presence.</li>
             </ul>
     </div>
-
-
+</div>
+    
+    <div class="QGIS-project-container-2">
+        <div class="gif-sim">
+            <img id="gifFrame" src="../images/Manhattan_Vegetation/January.png"" alt="Seattle Health Index Animation" />
+        </div> 
+    </div>
+    
     <div class="kent-project-container-2">
         <h3>Graphing the Seasons</h3>
             <p>Below is a NDVI graph illustrating the gif above. It measures healthy vegetation levels each month in Manhattan during 2022.</p>
@@ -63,9 +69,7 @@
 
     <div class="timber-harvest-container"> 
         <p><a href="../index.html?scroll=projects" class="back-button">← Back to Portfolio</a></p>
-    </div>
-
-</div> 
+    </div> 
 
     <footer>
         <section id="contact">
@@ -77,5 +81,29 @@
         </section> 
     </footer>
 
+<script>
+  const frames = [
+    "../images/Manhattan_Vegetation/January.png",
+    "../images/Manhattan_Vegetation/February.png",
+    "../images/Manhattan_Vegetation/March.png",
+    "../images/Manhattan_Vegetation/April.png",
+    "../images/Manhattan_Vegetation/May.png",
+    "../images/Manhattan_Vegetation/June.png",
+    "../images/Manhattan_Vegetation/July.png",
+    "../images/Manhattan_Vegetation/August.png",
+    "../images/Manhattan_Vegetation/September.png",
+    "../images/Manhattan_Vegetation/October.png",
+    "../images/Manhattan_Vegetation/November.png",
+    "../images/Manhattan_Vegetation/December.png",
+  ];
+
+  let currentFrame = 0;
+  const frameElement = document.getElementById("gifFrame");
+
+  setInterval(() => {
+    currentFrame = (currentFrame + 1) % frames.length;
+    frameElement.src = frames[currentFrame];
+  }, 700); // You can adjust timing (ms) here, e.g., 500 = faster
+</script>
     
 </body>
