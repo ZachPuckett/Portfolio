@@ -486,9 +486,9 @@ body.light-theme .back-button {
 
 /* KENT FIRES PROEJCT ---------------- */
 .kent-page-wrapper {
-    /*background: #EDEADE; /* Alabaster */
+    background: #EDEADE; /* Alabaster */
     padding: 0 200px;
-    /*border: 2px dashed #EDEADE; /* just for testing! */
+    border: 2px dashed #EDEADE; /* just for testing! */
 } 
     
 .kent-project-container-1 {
