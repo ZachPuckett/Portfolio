@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Embedded PDF Frame</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Projects</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
+    
+<body class="light-theme">
 
+<div class="kent-page-wrapper">
+    
   <!-- Hamburger Menu -->
     <div class="hamburger-menu">
         <div class="menu-icon">&#9776;</div> <!-- Three Lines Icon -->
         <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../projects/stats_project_wrapper.html">Statistical Analysis</a></li>
+            <li><a href="../projects/ml_project.html">Machine Learning</a></li>
             <li><a href="../projects/timb_harv_opt_project.html">Timber Harvest Optimization</a></li>
-            <li><a href="../projects/kent_fires_project.html">Mapping 2016 Kent Fire Dept. Incidents</a></li>
+            <li><a href="../projects/seattle_health_equity.html">Mapping Seattle Health Equity Index</a></li>
+            <li><a href="../projects/manhattan_vegetation_test.html">Remote Sensing for Monitoring Vegetation</a></li>            <li><a href="../projects/myfinancesuw.pdf">MyFinancesUW</a></li>
             <li><a href="#contact">Contact</a></li>
 
             <!-- Social Media Icons at the Bottom -->
@@ -26,58 +31,68 @@
             </div>
         </ul>
     </div>
+
+    <div class="kent-project-container-1">
+
+        <h1>ArcGIS for Mapping 2016 Kent Fire Department Incidents</h1>
+          <p> </p>
+          <p>This project analyzed emergency service calls in the Kent Fire Department coverage area using ArcGIS Spatial Analyst to identify incident risk zones and inform better resource deployment.</p>
+          <p>The dataset included synthetic subsets of 2016 emergency calls representing a variety of occupancies, including residential, commercial, industrial, and warehousing zones. The analysis focused on density and distribution patterns across five types of emergency responses.</p>
+
+            <ul>
+              <li>The <strong>Kernel Density</strong> geoprocessing tool was used to model the spatial distribution of emergency incidents for each category.</li>
+              <li>Each incident category (e.g., Structure Fires, EMS, Service Calls, HazMat) was mapped as a separate <strong>density raster</strong> layer for precise spatial analysis.</li>
+              <li>Custom <strong>contour polylines</strong> were generated for each map to illustrate variations in density and to visually represent zones of heightened risk.</li>
+              <li>All maps were produced within ArcGIS and used consistent styling and extent for comparison across response types.</li>
+            </ul>
+    </div>
+</div> 
+        <!-- <div class="kent-project-container-2"> -->
+
+          <div class="scroll-frame">
+            <div class="scroll-track">
+                <img src="../images/myfinancesuw/myfinancesuw-01.png" alt="Page 1 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-02.png" alt="Page 2 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-03.png" alt="Page 3 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-04.png" alt="Page 4 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-05.png" alt="Page 5 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-06.png" alt="Page 6 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-07.png" alt="Page 7 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-08.png" alt="Page 8 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-09.png" alt="Page 9 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-10.png" alt="Page 10 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-11.png" alt="Page 11 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-12.png" alt="Page 12 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-13.png" alt="Page 13 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-14.png" alt="Page 14 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-15.png" alt="Page 15 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-16.png" alt="Page 16 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-17.png" alt="Page 17 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-18.png" alt="Page 18 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-19.png" alt="Page 19 of PDF" width="100%">
+                <img src="../images/myfinancesuw/myfinancesuw-20.png" alt="Page 20 of PDF" width="100%">
+            </div>
+          </div>
+        <!-- </div> -->
+
+         
   
-  <div class="content">
-    <h1>MyFinancesUW Project</h1>
-    <p>Take a look at MyFinancesUW - a prototype application my team and I made to improve financial literacy and manage wealth</p>
 
-    <div class="stats-project-container">
-      <img src="../images/myfinancesuw/myfinancesuw-01.png" alt="Page 1 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-02.png" alt="Page 2 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-03.png" alt="Page 3 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-04.png" alt="Page 4 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-05.png" alt="Page 5 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-06.png" alt="Page 6 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-07.png" alt="Page 7 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-08.png" alt="Page 8 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-09.png" alt="Page 9 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-10.png" alt="Page 10 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-11.png" alt="Page 11 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-12.png" alt="Page 12 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-13.png" alt="Page 13 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-14.png" alt="Page 14 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-15.png" alt="Page 15 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-16.png" alt="Page 16 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-17.png" alt="Page 17 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-18.png" alt="Page 18 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-19.png" alt="Page 19 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-20.png" alt="Page 20 of PDF" />  
+    <div class="timber-harvest-container"> 
+        <p><a href="../index.html?scroll=projects" class="back-button">← Back to Portfolio</a></p>
     </div>
 
-    <!-- <div class="pdf-scroll-window">
-      <img src="../images/myfinancesuw/myfinancesuw-01.png" alt="Page 1 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-02.png" alt="Page 2 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-03.png" alt="Page 3 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-04.png" alt="Page 4 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-05.png" alt="Page 5 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-06.png" alt="Page 6 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-07.png" alt="Page 7 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-08.png" alt="Page 8 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-09.png" alt="Page 9 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-10.png" alt="Page 10 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-11.png" alt="Page 11 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-12.png" alt="Page 12 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-13.png" alt="Page 13 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-14.png" alt="Page 14 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-15.png" alt="Page 15 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-16.png" alt="Page 16 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-17.png" alt="Page 17 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-18.png" alt="Page 18 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-19.png" alt="Page 19 of PDF" />
-      <img src="../images/myfinancesuw/myfinancesuw-20.png" alt="Page 20 of PDF" />  
-      <!-- Add more images as needed -->
     </div>
-  </div> 
+    
+    <footer>
+        <section id="contact">
+            <p>zachary.puckett@icloud.com</p>
+            <div class="social-icons">
+                <a href="https://github.com/ZachPuckett" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/zachary-puckett-a2b4202b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div> 
+        </section> 
+    </footer> 
 
   <footer>
         <section id="contact">
