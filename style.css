@@ -143,10 +143,15 @@ iframe {
 /* WELCOME SECTION STUFF ------------ */
 
 .main-page-wrapper {
-    width: 100%;
+    /* width: 100%; - most recent debug change*/ 
     background: linear-gradient(135deg, #3a6186, #89253e);
 }
 
+/* .qgis-page-wrapper {
+    background: #EDEADE;
+    padding: 0 200px;
+    border: 2px dashed #EDEADE; /* just for testing! - here for reference to main-page-refernece, debugging 
+} 
     /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
     text-align: center;
