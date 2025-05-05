@@ -186,7 +186,7 @@ iframe {
 .hero-title {
     font-size: 5rem; /* Larger than typical h1 */
     font-weight: 800;
-    color: #ff3333; /* Bright color for emphasis */
+    color: white; /* Bright color for emphasis */
     line-height: 1.1;
     max-width: 80%;
     text-align: left;
