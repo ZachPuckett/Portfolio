@@ -125,6 +125,14 @@ body.light-theme .menu-icon {
 /*  ^ MENU STUFF -------------------- ^*/
 
 /* MISCELLANEOUS ----------------- */
+
+.subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #BBBBBB; /* Adjust for theme contrast */
+  margin-top: 0.5rem;
+}
+
 /* Flex container for image + intro */
 .intro-container {
   display: flex;
