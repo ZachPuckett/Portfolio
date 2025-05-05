@@ -160,6 +160,23 @@ iframe {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+.hero-wrapper {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start; /* Start at the top */
+    justify-content: flex-start; /* Left align */
+    padding: 5rem; /* Adjust as needed */
+}
+
+.hero-title {
+    font-size: 5rem; /* Larger than typical h1 */
+    font-weight: 800;
+    color: #ff3333; /* Bright color for emphasis */
+    line-height: 1.1;
+    max-width: 80%;
+    text-align: left;
+}
 
 .welcome-section {
     text-align: center;
