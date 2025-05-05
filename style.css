@@ -222,18 +222,20 @@ iframe {
 .hero-wrapper {
     position: relative;
     height: 100vh;
-    display: flex;
-    align-items: flex-start; /* Start at the top */
-    justify-content: flex-start; /* Left align */
-    padding: 5rem; /* Adjust as needed */
+}
+
+.hero-title-container {
+    position: absolute;
+    top: 10%;
+    left: 5%;
 }
 
 .hero-title {
-    font-size: 5rem; /* Larger than typical h1 */
+    font-size: 3.5rem; /* Larger than typical h1 */
     font-weight: 800;
-    color: white; /* Bright color for emphasis */
-    line-height: 1.1;
-    max-width: 80%;
+    color: #F1F1F1; /* Bright color for emphasis */
+    line-height: 1.2;
+    max-width: 90%;
     text-align: left;
 }
 
