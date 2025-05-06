@@ -435,9 +435,7 @@ iframe {
 
 /* STATS PROJECT STUFF ------------------ */
     /* Center all content in the Stats project page */
-.stats-page-wrapper {
-    background: white;
-}
+
 .stats-project-container {
     text-align: center;
     max-width: 900px;
