@@ -414,7 +414,6 @@ iframe {
     /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     margin: 50px auto; /* new addition to test */
     border-radius: 10px; /* new addition to test */
-    background: white;
 }
 .ml-project-container-3 {
     text-align: center;
@@ -424,7 +423,6 @@ iframe {
     /* background: #1C1C1C;/* old backgroundlinear-gradient(135deg, #5D595B, #892C5B); */
     margin: 50px auto; /* new addition to test */
     border-radius: 10px; /* new addition to test */
-    background: white;
 }
 
 .ml-project-container iframe, 
