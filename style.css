@@ -3,8 +3,8 @@ body {
     font-family: 'Times New Roman', serif;
     margin-top: 0px;
     padding: 0;
-    background: linear-gradient(135deg, #3a6186, #89253e);
-    color: white; /*#D3D3D3 Light Gray Text */
+    background: white;/* background: linear-gradient(135deg, #3a6186, #89253e); */
+    color: #D3D3D3; /* Light Gray Text */
 }
 body.light-theme {
     font-family: 'Times New Roman', serif;
