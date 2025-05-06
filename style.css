@@ -209,8 +209,12 @@ iframe {
 /* .qgis-page-wrapper {
     background: #EDEADE;
     padding: 0 200px;
-    border: 2px dashed #EDEADE; /* just for testing! - here for reference to main-page-refernece, debugging 
-} 
+    border: 2px dashed #EDEADE; /* just for testing! */
+
+.home-page-wrapper{
+    background: linear-gradient(135deg, #3a6186, #89253e);
+    padding: 100px;
+}
     /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
     text-align: center;
