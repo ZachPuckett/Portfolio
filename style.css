@@ -11,7 +11,6 @@ body.light-theme {
     margin: 0;
     padding: 0;
     background-color: #F9F6EE; /* Bone White Background */
-    color: #353935; /* Onyx Text */
 }
 
 body.welcome-section {
@@ -225,7 +224,7 @@ iframe {
 }
 .hero-wrapper {
     position: relative;
-    height: 100vh;
+    height: 50vh;
 }
 
 .hero-title-container {
@@ -255,7 +254,7 @@ iframe {
 .welcome-text-container {
     max-width: 800px; /* adjust to taste */
     margin: 0 auto;
-    padding: 0; /*20px; */
+    padding: 0px; /*20px; */
 }
 
 .welcome-text-container-2 {
