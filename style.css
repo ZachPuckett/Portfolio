@@ -226,8 +226,8 @@ iframe {
 
 .hero-title-container {
     position: absolute;
-    top: 10%;
-    left: 5%;
+    top: 20%;
+    left: 1%;
 }
 
 .hero-title {
@@ -251,7 +251,7 @@ iframe {
 .welcome-text-container {
     max-width: 800px; /* adjust to taste */
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0; /*20px; */
 }
 
 .welcome-text-container-2 {
