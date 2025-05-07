@@ -267,7 +267,7 @@ iframe {
 }
 
 .welcome-text-container {
-    max-width: 800; /* adjusted from 800px for taste */
+    max-width: 600; /* adjusted from 800px for taste */
     margin: 0 auto;
     padding-left: 75px; /* was just padding: 100px;  */
     padding-top: 75px;
