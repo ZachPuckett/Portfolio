@@ -229,7 +229,7 @@ iframe {
 }
 .hero-wrapper {
     position: relative;
-    height: 50vh;
+    height: auto;/* changed from 50vh; */
 }
 
 .hero-title-container {
@@ -271,7 +271,7 @@ iframe {
     margin: 0 auto;
     padding-left: 75px; /* was just padding: 100px;  */
     padding-top: 75px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 .welcome-text-container-2 {
