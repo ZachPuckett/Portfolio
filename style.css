@@ -275,7 +275,7 @@ iframe {
 }
 
 .welcome-text-container-2 {
-    max-width: 950px; /* adjust to taste */
+    max-width: 1240px; /* changed from 950 - allows for 3 projects per row */
     margin: 0 auto;
     padding: 0 20px;
 }
