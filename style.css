@@ -12,6 +12,12 @@ body.light-theme {
     padding: 0;
     background-color: #F9F6EE; /* Bone White Background */
 }
+body.home-light-theme {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F6EE; /* Bone White Background */
+}
 
 body.welcome-section {
     background: linear-gradient(135deg, #3a6186, #89253e);
@@ -32,6 +38,9 @@ body.welcome-section {
 }
 
 body.light-theme footer {
+    color: #D3D3D3; /* Light gray to match dark footer background */
+}
+body.home-light-theme footer {
     color: #D3D3D3; /* Light gray to match dark footer background */
 }
 
@@ -60,6 +69,9 @@ body.light-theme footer {
 
 body.light-theme .menu-icon {
     color: rgb(28, 28, 28);
+}
+body.home-light-theme .menu-icon {
+    color: white;
 }
 
     /* Show/Hide Menu */
