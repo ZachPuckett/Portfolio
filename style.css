@@ -267,10 +267,11 @@ iframe {
 }
 
 .welcome-text-container {
-    max-width: none; /* adjusted from 800px for taste */
+    max-width: 800; /* adjusted from 800px for taste */
     margin: 0 auto;
-    padding-left: 50px; /* was just padding: 100px;  */
-    padding-bottom: 20px;
+    padding-left: 75px; /* was just padding: 100px;  */
+    padding-top: 75px;
+    padding-bottom: 0px;
 }
 
 .welcome-text-container-2 {
@@ -305,7 +306,7 @@ iframe {
   overflow: hidden;
   width: 100%;
   background: transparent;
-  padding: 20px 0;
+  padding: 0px;/* changed from 20px 0; */
 }
 
 .marquee-track {
