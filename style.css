@@ -271,7 +271,7 @@ iframe {
     margin: 0 auto;
     padding-left: 75px; /* was just padding: 100px;  */
     padding-top: 75px;
-    padding-bottom: 10px;
+    padding-bottom: 200px;
 }
 
 .welcome-text-container-2 {
