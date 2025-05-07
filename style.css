@@ -125,13 +125,6 @@ body.light-theme .menu-icon {
 
 /* MISCELLANEOUS ----------------- */
 
-.subtitle {
-  font-size: 1.2rem;
-  font-style: italic;
-  color: #BBBBBB; /* Adjust for theme contrast */
-  margin-top: 0.5rem;
-}
-
 /* Flex container for image + intro */
 .intro-container {
   display: flex;
@@ -212,7 +205,7 @@ iframe {
 
 .home-page-wrapper{
     background: linear-gradient(135deg, #3a6186, #89253e);
-    padding: 100px;
+    padding: 0px; /* changed from 100px */
 }
     /* Apply the Background to Both Introduction & Image Slider */
 .welcomeslider-section {
@@ -229,7 +222,7 @@ iframe {
 
 .hero-title-container {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 1%;
 }
 
@@ -240,6 +233,14 @@ iframe {
     line-height: 1.2;
     max-width: 90%;
     text-align: left;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #BBBBBB; /* Adjust for theme contrast */
+  margin: 0 0 0.25rem 0; /* top right bottom left */
+  /* margin-top: 0.5rem; */
 }
 
 .welcome-section {
@@ -254,7 +255,7 @@ iframe {
 .welcome-text-container {
     max-width: 800px; /* adjust to taste */
     margin: 0 auto;
-    padding: 0px; /*20px; */
+    padding: 100px; /*20px; */
 }
 
 .welcome-text-container-2 {
