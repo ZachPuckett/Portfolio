@@ -17,6 +17,7 @@ body.home-light-theme {
     margin: 0;
     padding: 0;
     background-color: #F9F6EE; /* Bone White Background */
+    color: white; /* new addittion in hopes of changing text color for homepage */
 }
 
 body.welcome-section {
