@@ -72,7 +72,7 @@
 
         <!-- Right: Text -->
         <div class="intro-text">
-            <h2 class="section-title">Profile</h2>
+            <!--<h2 class="section-title">Profile</h2>
                 <p>
                     During my time at UW, I’ve developed a strong interest in using GIS and open data to support equitable land use 
                     planning and risk assessment. My portfolio brings together techniques like remote sensing, geospatial modeling, machine 
@@ -80,10 +80,46 @@
                     skills by engaging with GIS communities like CUGOS, WAGISA, and Maptime to learn from like-minded peers. I believe continuous 
                     learning is essential to my growth as a geographic data scientist and am eager to join environments where I’m challenged, supported, 
                     and constantly learning.
+                </p> -->
+            <div class="section-toggles">
+              <h2 id="profile-title" class="interactive-tab active">Profile</h2>
+              <h2 id="skills-title" class="interactive-tab">Skills</h2>
+            </div>
+
+            <div class="section-content">
+              <div id="profile-content" class="section-block active">
+                <p>
+                  During my time at UW, I’ve developed a strong interest in using GIS and open data to support equitable land use 
+                  planning and risk assessment. My portfolio brings together techniques like remote sensing, geospatial modeling, machine 
+                  learning, and statistical analysis in pursuit of equity-focused solutions. As I approach graduation, I’m expanding my 
+                  skills by engaging with GIS communities like CUGOS, WAGISA, and Maptime to learn from like-minded peers. I believe continuous 
+                  learning is essential to my growth as a geographic data scientist and am eager to join environments where I’m challenged, supported, 
+                  and constantly learning.
                 </p>
+              </div>
+
+            <div id="skills-content" class="section-block">
+                <ul>
+                  <li>ArcGIS Pro</li>
+                  <li>ArcGIS Online</li>
+                  <li>QGIS</li>
+                  <li>Remote sensing (Optical & SAR imagery via Google Earth Engine)</li>
+                  <li>NDVI & spectral analysis using Google Earth Engine</li>
+                  <li>Data wrangling/visualization</li>
+                  <li>Machine learning</li>
+                  <li>Python</li>
+                  <li>R</li>
+                  <li>Java</li>
+                  <li>SQL</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>UI design</li>
+                </ul>
+              </div>
+            </div>
         </div> 
     </div>
-</div>
+<!-- </div> -->
 
         <!-- Project Grid -->
         <section class="projects" id="projects">
@@ -175,42 +211,19 @@
   const profileContent = document.getElementById('profile-content');
   const skillsContent = document.getElementById('skills-content');
 
-  let activeSection = 'profile';
-
-  function showSection(tempSection) {
-    if (tempSection === 'skills') {
+  function activateSection(section) {
+    if (section === 'skills') {
       profileContent.classList.remove('active');
       skillsContent.classList.add('active');
+      profileTitle.classList.remove('active');
+      skillsTitle.classList.add('active');
     } else {
       skillsContent.classList.remove('active');
       profileContent.classList.add('active');
-    }
-  }
-
-  function activateSection(section) {
-    activeSection = section;
-
-    profileTitle.classList.remove('active');
-    skillsTitle.classList.remove('active');
-    profileContent.classList.remove('active');
-    skillsContent.classList.remove('active');
-
-    if (section === 'skills') {
-      skillsTitle.classList.add('active');
-      skillsContent.classList.add('active');
-    } else {
+      skillsTitle.classList.remove('active');
       profileTitle.classList.add('active');
-      profileContent.classList.add('active');
     }
   }
-
-  profileTitle.addEventListener('mouseenter', () => {
-    if (activeSection !== 'profile') showSection('profile');
-  });
-
-  skillsTitle.addEventListener('mouseenter', () => {
-    if (activeSection !== 'skills') showSection('skills');
-  });
 
   profileTitle.addEventListener('click', () => activateSection('profile'));
   skillsTitle.addEventListener('click', () => activateSection('skills'));
