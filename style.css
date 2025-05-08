@@ -203,7 +203,9 @@ body.home-light-theme .menu-icon {
 
 .intro-wrapper {
   max-width: 1000px;  /* Adjust depending on desired width */
-  margin-left: 250px; /* ✅ Pushes the entire block to the right */
+  /* margin-left: 250px; /* ✅ Pushes the entire block to the right */
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 /* NEW intro-container */
 .intro-container {
