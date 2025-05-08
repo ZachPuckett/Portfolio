@@ -138,15 +138,7 @@ body.home-light-theme .menu-icon {
 
 /* MISCELLANEOUS ----------------- */
 
-/* Flex container for image + intro */
-/* .intro-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; /* Makes it responsive 
-  padding: 4rem;
-  gap: 2rem;
-} */
+
 /* HOME PAGE PROFILE AND SKILLS STUFF */
 .section-toggles {
   display: flex;
@@ -216,11 +208,13 @@ body.home-light-theme .menu-icon {
 /* NEW intro-container */
 .intro-container {
   display: flex;
+  flex-wrap: wrap; /* ✅ allow image and text to stack when needed */
   align-items: flex-start;
   justify-content: center;
   gap: 4rem;
   padding: 4rem;
 }
+
 
 /* Left: Image styling */
 .intro-image img {
@@ -232,8 +226,11 @@ body.home-light-theme .menu-icon {
 
 /* Right: Text block */
 .intro-text {
+  flex: 1 1 400px; /* ✅ allows it to shrink and grow flexibly */
   max-width: 500px; /* Optional: force consistent width */
+  min-width: 300px;
   width: 100%;
+  overflow-wrap: break-word;
   padding-left: 0px;
   text-align: left; /* Ensures text is left-aligned */
   font-family: 'Georgia', serif;
