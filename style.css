@@ -173,6 +173,9 @@ body.home-light-theme .menu-icon {
   width: 500px; /* Optional: force consistent width */
   padding-left: 0px;
   text-align: left; /* Ensures text is left-aligned */
+  font-family: 'Georgia', serif;
+  font-size: 1.15rem;
+  line-height: 1.7;
 }
 
 /* Optional: Section title above paragraph */
