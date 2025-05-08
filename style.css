@@ -139,30 +139,45 @@ body.home-light-theme .menu-icon {
 /* MISCELLANEOUS ----------------- */
 
 /* Flex container for image + intro */
-.intro-container {
+/* .intro-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; /* Makes it responsive */
+  flex-wrap: wrap; /* Makes it responsive 
   padding: 4rem;
   gap: 2rem;
+} */
+/* NEW intro-container */
+.intro-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
 }
 
-/* Left: Image side */
+/* Left: Image styling */
 .intro-image img {
-  max-width: 300px;
+  max-width: 250px;
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }
 
-/* Right: Text side */
+/* Right: Text block */
 .intro-text {
-  flex: 1;
-  min-width: 280px;
-  font-size: 1.1rem;
-  line-height: 1.7;
+  width: 500px; /* Optional: force consistent width */
+  padding-left: 0px;
+  text-align: left; /* Ensures text is left-aligned */
 }
+
+/* Optional: Section title above paragraph */
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
 
 /* Optional: Make image and text stack on small screens */
 @media (max-width: 768px) {
