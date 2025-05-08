@@ -856,8 +856,21 @@ body.light-theme .back-button {
 
 /* MOBILE MODIFICATIONS */
 @media (max-width: 600px) {
-    body::before {
-    content: "📱 Media Query Active";
+  body::before {
+    content: "🔵 Wide screen active";
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: blue;
+    color: white;
+    padding: 4px 8px;
+    z-index: 9999;
+  }
+}
+
+@media (max-width: 1100px) {
+  body::before {
+    content: "🟠 Stacked layout active";
     position: fixed;
     top: 0;
     left: 0;
@@ -866,6 +879,7 @@ body.light-theme .back-button {
     padding: 4px 8px;
     z-index: 9999;
   }
+}
   .intro-container {
     flex-direction: column;
     align-items: center;
