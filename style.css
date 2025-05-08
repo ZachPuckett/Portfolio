@@ -160,7 +160,7 @@ body.home-light-theme .menu-icon {
   font-family: 'Georgia', serif;
   font-size: 1.5rem;
   font-weight: bold;
-  transition: color 0.3s ease;
+  color: inherit;
 }
 
 .interactive-tab::after {
@@ -171,7 +171,7 @@ body.home-light-theme .menu-icon {
   width: 0;
   height: 2px;
   background-color: #A0335C;
-  transition: width 0.4s ease;
+  transition: width 0.3s ease;
 }
 
 .interactive-tab:hover::after,
@@ -179,8 +179,18 @@ body.home-light-theme .menu-icon {
   width: 100%;
 }
 
+/* Fixing toggle logic */
+.section-content {
+  min-height: 220px; /* ensures height doesn't jump on toggle */
+  position: relative;
+}
+
 .section-block {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .section-block.active {
