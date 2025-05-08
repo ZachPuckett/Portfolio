@@ -147,6 +147,58 @@ body.home-light-theme .menu-icon {
   padding: 4rem;
   gap: 2rem;
 } */
+/* HOME PAGE PROFILE AND SKILLS STUFF */
+.section-toggles {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.interactive-tab {
+  position: relative;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.interactive-tab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #A0335C;
+  transition: width 0.4s ease;
+}
+
+.interactive-tab:hover::after,
+.interactive-tab.active::after {
+  width: 100%;
+}
+
+.section-block {
+  display: none;
+}
+
+.section-block.active {
+  display: block;
+}
+
+#skills-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+#skills-content li {
+  margin-bottom: 0.4rem;
+}
+
 .intro-wrapper {
   max-width: 1000px;  /* Adjust depending on desired width */
   margin-left: 250px; /* ✅ Pushes the entire block to the right */
