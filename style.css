@@ -242,9 +242,9 @@ body.home-light-theme .menu-icon {
   line-height: 1.7;
 
   /* 🔽 Add these */
-  margin-top: -10px;        /* Nudges the entire block up */
+  margin-top: -30px;        /* Nudges the entire block up */
   padding-top: 0;           /* Prevent excess padding */
-  transform: translateY(-10px); /* Optional: fine-tune upward shift */
+  transform: translateY(-30px); /* Optional: fine-tune upward shift */
 }
 
 /* Optional: Section title above paragraph */
