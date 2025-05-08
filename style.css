@@ -240,6 +240,11 @@ body.home-light-theme .menu-icon {
   font-family: 'Georgia', serif;
   font-size: 1.15rem;
   line-height: 1.7;
+
+  /* 🔽 Add these */
+  margin-top: -10px;        /* Nudges the entire block up */
+  padding-top: 0;           /* Prevent excess padding */
+  transform: translateY(-10px); /* Optional: fine-tune upward shift */
 }
 
 /* Optional: Section title above paragraph */
