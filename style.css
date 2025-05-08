@@ -869,29 +869,29 @@ footer {
 /* Stacking MODIFICATIONS */
 @media (max-width: 800px) {
   .intro-container {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .intro-image,
+  .intro-text {
+    width: 100% !important;
+    min-width: 0 !important;
   }
 
   .intro-image img {
-    max-width: 80%;
-    margin-bottom: 1rem;
-  }
-
-  .intro-text,
-  .intro-image {
-    width: 100%;
-    min-width: 0; /* ✅ override earlier min-width: 300px; */
+    max-width: 80% !important;
+    margin-bottom: 1rem !important;
   }
 
   .intro-text {
-    text-align: left;
-    max-width: 90%;
+    text-align: left !important;
+    max-width: 90% !important;
   }
 
   .section-toggles {
-    justify-content: center;
+    justify-content: center !important;
   }
 }
