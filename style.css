@@ -249,7 +249,7 @@ iframe {
 }
 .hero-wrapper {
     position: relative;
-    height: auto;/* changed from 50vh; */
+    height: 7vh;/* changed from auto, which was changed from 50vh; */
 }
 
 .hero-title-container {
