@@ -875,6 +875,16 @@ footer {
     text-align: center;
   }
 
+  .intro-image img {
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .intro-text,
+  .intro-image {
+    width: 100%;
+  }
+
   .intro-text {
     text-align: left;
     max-width: 90%;
@@ -882,10 +892,5 @@ footer {
 
   .section-toggles {
     justify-content: center;
-  }
-
-  .intro-image img {
-    max-width: 80%;
-    margin-bottom: 1rem;
   }
 }
