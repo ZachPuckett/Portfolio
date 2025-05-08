@@ -210,7 +210,7 @@ body.home-light-theme .menu-icon {
 /* NEW intro-container */
 .intro-container {
   display: flex;
-  flex-wrap: nowrap; /* ⛔ prevent early stacking */
+  flex-wrap: wrap; /* ⛔ prevent early stacking */
   align-items: flex-start;
   justify-content: center;
   gap: 4rem;
@@ -855,7 +855,7 @@ body.light-theme .back-button {
 /* ^ Manhattan Vegetation PROJECT ---------------------*/
 
 /* MOBILE MODIFICATIONS */
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .intro-container {
     flex-direction: column;
     align-items: center;
