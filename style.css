@@ -137,12 +137,7 @@ body.home-light-theme .menu-icon {
 /*  ^ MENU STUFF -------------------- ^*/
 
 /* MISCELLANEOUS ----------------- */
-ul ul {
-  display: block;
-  margin-left: 1.5em; /* optional: adds indentation */
-  padding-left: 1em;  /* optional: adds spacing inside */
-  list-style-type: disc; /* optional: ensures bullet style */
-}
+
 
 /* HOME PAGE PROFILE AND SKILLS STUFF */
 .section-toggles {
