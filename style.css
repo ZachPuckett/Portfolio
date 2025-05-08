@@ -147,6 +147,10 @@ body.home-light-theme .menu-icon {
   padding: 4rem;
   gap: 2rem;
 } */
+.intro-wrapper {
+  max-width: 1000px;  /* Adjust depending on desired width */
+  margin-left: 250px; /* ✅ Pushes the entire block to the right */
+}
 /* NEW intro-container */
 .intro-container {
   display: flex;
