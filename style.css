@@ -210,7 +210,7 @@ body.home-light-theme .menu-icon {
 /* NEW intro-container */
 .intro-container {
   display: flex;
-  flex-wrap: wrap; /* ⛔ prevent early stacking */
+  flex-wrap: nowrap; /* ⛔ prevent early stacking */
   align-items: flex-start;
   justify-content: center;
   gap: 4rem;
@@ -856,6 +856,16 @@ body.light-theme .back-button {
 
 /* MOBILE MODIFICATIONS */
 @media (max-width: 600px) {
+    body::before {
+    content: "📱 Media Query Active";
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: orange;
+    color: black;
+    padding: 4px 8px;
+    z-index: 9999;
+  }
   .intro-container {
     flex-direction: column;
     align-items: center;
