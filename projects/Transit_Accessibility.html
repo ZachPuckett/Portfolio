@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transit Equity</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-theme">
+
+<div class="qgis-page-wrapper">
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects/stats_project_wrapper.html">Statistical Analysis</a></li>
+            <li><a href="../projects/ml_project.html">Machine Learning</a></li>
+            <li><a href="../projects/kent_fires_test.html">Mapping 2016 Kent Fire Dept. Incidents</a></li>
+            <li><a href="../projects/seattle_health_equity.html">Mapping Seattle Health Equity Index</a></li>
+            <li><a href="../projects/manhattan_vegetation_test.html">Remote Sensing for Monitoring Vegetation</a></li>
+            <li><a href="../projects/Log_Jam_Analysis.html">Log Jam Analysis for UC SRB</a></li>
+            <li><a href="../projects/myfinances_wrapper.html">UX Design for Financial Literacy</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="social-icons">
+                <a href="https://github.com/ZachPuckett" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/zachary-puckett-a2b4202b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="QGIS-project-container-1">
+        <header>
+            <h1>Mind the Gap: Assessing Transit Equity in Seattle</h1>
+            <p>This project investigates the geography of public transit accessibility across Seattle, with a focus on equity outcomes. Using ArcGIS and demographic data, I analyzed which neighborhoods fall outside a 10-minute walking radius of transit stops, particularly in relation to households in poverty and without vehicles.</p>
+            <ul>
+                <li>Used <b>ArcGIS Pro</b> to perform spatial joins and proximity analysis on Seattle's GTFS transit stop data and census block groups.</li>
+                <li>Mapped households more than a 10-minute walk from a transit stop, identifying underserved neighborhoods through a binary accessibility index.</li>
+                <li>Incorporated <b>ACS 2023 data</b> on income, vehicle ownership, and total population to highlight areas with compounded transportation disadvantage.</li>
+                <li>Produced thematic maps showing accessibility overlaps with low-income and vehicle-less households, isolating South Seattle as a critical intervention zone.</li>
+            </ul>
+            <p>The findings showed that while neighborhoods like North Beach and Madison Park are also underserved by transit, only South Seattle demonstrates high transit inaccessibility combined with economic and mobility vulnerabilities. This project supports the need for targeted policy that prioritizes transit equity based on socioeconomic risk.</p>
+        </header>
+    </div>
+
+    <div class="spacer-2"></div>
+
+    <h2 style="text-align:center">Transit Accessibility and Socioeconomic Disparity</h2>
+    <div class="scroll-frame">
+        <div class="scroll-track">
+            <img src="../images/your_image_1.png" alt="Map 1 - General Transit Accessibility" width="100%">
+            <img src="../images/your_image_2.png" alt="Map 2 - Demographic Overlay with Accessibility" width="100%">
+        </div>
+    </div>
+
+    <div class="spacer-small"></div>
+    <h2 style="text-align:center">Summary Map or Accessibility Legend</h2>
+    <div class="QGIS-project-container-2">
+        <img src="../images/your_final_image_here.png" alt="Legend or Summary Visualization" width="100%">
+    </div>
+
+    <div class="timber-harvest-container">
+        <p><a href="../index.html#projects" class="back-button">← Back to Portfolio</a></p>
+    </div>
+
+    <footer>
+        <section id="contact">
+            <p>zachary.puckett@icloud.com</p>
+            <div class="social-icons">
+                <a href="https://github.com/ZachPuckett" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/zachary-puckett-a2b4202b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
