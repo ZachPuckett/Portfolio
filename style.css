@@ -416,7 +416,7 @@ iframe {
 
 .marquee-track img {
   width: 300px;
-  height: auto;
+  height: 300px; /* changed from auto */
   margin: 0 10px;
   flex-shrink: 0;
   border-radius: 10px;
