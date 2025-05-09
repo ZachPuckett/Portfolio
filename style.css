@@ -898,11 +898,11 @@ body.light-theme .back-button {
 
 .image-caption {
   width: 200px;
-  margin: 0 auto;
-  font-size: 0.9em;
+  margin: 10px auto 0;
+  font-size: 0.85rem;
   line-height: 1.4;
-  word-wrap: break-word;
-  text-align: center;
+  text-align: center;      /* ✅ Ensures text is centered */
+  word-wrap: break-word;   /* ✅ Ensures wrapping at 200px */
 }
 
 .COVID-image-container-2 {
@@ -915,6 +915,12 @@ body.light-theme .back-button {
     /* background: linear-gradient(135deg, #8B5E3C, #3E2F1C); */
     border-radius: 0px; /* new addition to test */
     /* height: 400px; /* adjusts vertical height */
+}
+.COVID-image-container-2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 
