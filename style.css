@@ -870,6 +870,7 @@ body.light-theme .back-button {
 
 /* COVID-19 327 Remote Sensing PROJECT ---------------------*/
 .image-slider-row {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -877,7 +878,8 @@ body.light-theme .back-button {
 }
 
 .slider-item {
-  width: 45%;
+  width: 300px;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -891,6 +893,8 @@ body.light-theme .back-button {
   margin: 0 auto;
   font-size: 0.9em;
   line-height: 1.4;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .COVID-image-container-2 {
