@@ -739,6 +739,14 @@ body.light-theme .back-button {
   margin-right: 10px;
   border-radius: 5px;
 }
+
+.scroll-track-2 img {
+  display: inline-block;
+  width: 800px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
 /* ^ KENT FIRES PROEJCT ---------------- */
 
 /* SEATTLE HEALTH EQUITY PROEJCT ---------------- */
