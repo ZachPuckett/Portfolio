@@ -925,6 +925,23 @@ body.light-theme .back-button {
 
 
 /* ^ COVID-19 327 Remote Sensing PROJECT ---------------------*/    
+
+/* ^ Transit Accessibility PROJECT ---------------------*/    
+.Transit-Table {
+    text-align: center;
+    max-width: 350px;
+    justify-content: center; /* center horizontally */
+    align-items: center;    /*  center vertically */
+    margin: 0px auto;
+    border-radius: 0px;
+}
+
+.Transit-Table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}    
 /* Footer */
 footer {
     text-align: center;
