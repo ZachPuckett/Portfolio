@@ -868,7 +868,32 @@ body.light-theme .back-button {
 
 /* ^ Manhattan Vegetation PROJECT ---------------------*/
 
-    
+/* COVID-19 327 Remote Sensing PROJECT ---------------------*/
+.image-slider-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slider-item {
+  width: 45%;
+  text-align: center;
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* ^ COVID-19 327 Remote Sensing PROJECT ---------------------*/    
 /* Footer */
 footer {
     text-align: center;
