@@ -34,12 +34,27 @@
   </div>
 
   <div class="QGIS-project-container-1">
-    <header>
-      <h1>Global CO₂ Emissions and Pollution Mapping</h1>
+  <header>
+    <h1>Mapping Projected Climate Change in the United States</h1>
 
-      <p>This project uses global emissions and pollution data to explore environmental disparities across space using mixed symbol, orthographic, and proportional symbol mapping.</p>
-    </header>
-  </div>
+    <p>This project uses raster datasets to model projected changes in climate variables across the US, emphasizing the spatial variability of climate impacts.</p>
+
+    <p>The final map visualizes absolute change in <b>projected winter precipitation (2071–2090 vs. 1975–2005)</b> and identifies geographic patterns related to climate vulnerability.</p>
+
+    <h3>Methodology</h3>
+    <ul>
+      <li>Loaded a raster dataset showing projected absolute change in winter precipitation (1975–2005 vs. 2071–2090), sourced from the U.S. Forest Service's National Forest System Climate Change dataset.</li>      <li>Overlaid state boundaries with transparent fill and labeled each using the state name field.</li>
+      <li>Changed the projection to a suitable conic projection for the contiguous US (Albers Equal Area).</li>
+      <li>Added an inset map zoomed to the Pacific Northwest for localized analysis.</li>
+      <li>Included scale indicators and a legend to enhance interpretability and readability.</li>
+    </ul>
+
+    <p>Geoprocessing in QGIS included coordinate system transformations, adjusting raster symbology with linear interpolation, and combining raster layers with vector overlays to communicate projected spatial change. All visualizations were finalized in QGIS Layout Manager using multi-frame map elements, labeling tools, and custom projection settings.</p>
+
+    <p><b>Data Source:</b> U.S. Forest Service, Rocky Mountain Research Station — <i>National Forest System Climate Change Maps</i>  
+    (<a href="https://www.fs.fed.us/rm/boise/AWAE/projects/NFS-regional-climate-change-maps/categories/us-raster-layers.html" target="_blank">fs.fed.us climate change rasters</a>)</p>
+  </header>
+</div>
 </div>
 
 <div class="spacer-2"></div>
