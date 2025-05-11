@@ -963,6 +963,28 @@ body.light-theme .back-button {
     display: block;
     margin: 0 auto;
 }    
+
+/* Precipitation Change PROJECT ---------------------*/    
+    .Precipitation-project-container {
+    text-align: center;
+    max-width: 925px;
+    justify-content: center; /* center horizontally */
+    align-items: center;    /*  center vertically */
+    margin: 0px auto;
+    /* padding: 0 30px; */
+    /* background: linear-gradient(135deg, #8B5E3C, #3E2F1C); */
+    border-radius: 0px; /* new addition to test */
+    /* height: 400px; /* adjusts vertical height */
+}
+
+.Precipitation-project-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* ^ Precipitation Change PROJECT ---------------------*/    
+    
 /* Footer */
 footer {
     text-align: center;
