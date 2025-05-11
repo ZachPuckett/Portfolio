@@ -267,7 +267,7 @@ body.home-light-theme .menu-icon {
 .intro-text,
 .intro-image {
   flex: 1 1 40%;   /* chagned from 450px - Controls how much width they can take */
-  min-width: 340px;  /* Forces stacking if window is too narrow - originally 300px*/
+  min-width: 355px;  /* Forces stacking if window is too narrow - originally 300px, then 340px */
   max-width: 500px;  /* Prevents overgrowth */
 }
 
