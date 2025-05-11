@@ -26,6 +26,12 @@ body.welcome-section {
     animation: gradientFlow 15s ease infinite;
 }
 
+.gradientFlow {
+  background: linear-gradient(135deg, #3a6186, #89253e);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
 @keyframes gradientFlow {
     0% {
         background-position: 0% 0%;
