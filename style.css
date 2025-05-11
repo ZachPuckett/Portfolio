@@ -965,9 +965,9 @@ body.light-theme .back-button {
 }    
 
 /* Precipitation Change PROJECT ---------------------*/    
-    .Precipitation-project-container {
+.Precipitation-project-container {
     text-align: center;
-    max-width: 925px;
+    max-width: 900px;
     justify-content: center; /* center horizontally */
     align-items: center;    /*  center vertically */
     margin: 0px auto;
