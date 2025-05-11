@@ -97,7 +97,14 @@ body.home-light-theme .menu-icon {
     /* NEW additions below */
     max-height: 80vh; /* menu won't extend beyond 80% of viewport height */
     overflow-y: auto; /* enables vertical scroll if needed */
-    scrollbar-width: thin; /* Firefox */
+    
+    /* Hides scrollbar but keeps scroll behavior */
+    scrollbar-width: none;         /* Firefox */
+    -ms-overflow-style: none;      /* Internet Explorer 10+ */
+}
+
+.menu::-webkit-scrollbar {
+    display: none;                 /* Chrome, Safari, Opera */
 }
 
 .hamburger-menu:hover .menu {
