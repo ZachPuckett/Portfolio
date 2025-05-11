@@ -93,6 +93,11 @@ body.home-light-theme .menu-icon {
     width: 175px; /* Perfect at 200 - changed to test things out */
     padding: 15px;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow */
+
+    /* NEW additions below */
+    max-height: 80vh; /* menu won't extend beyond 80% of viewport height */
+    overflow-y: auto; /* enables vertical scroll if needed */
+    scrollbar-width: thin; /* Firefox */
 }
 
 .hamburger-menu:hover .menu {
