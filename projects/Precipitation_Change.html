@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Raster Mapping</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head> 
+<body class="light-theme">
+
+<div class="qgis-page-wrapper">
+
+    <div class="hamburger-menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects/stats_project_wrapper.html">Statistical Analysis</a></li>
+            <li><a href="../projects/ml_project.html">Machine Learning</a></li>
+            <li><a href="../projects/kent_fires_test.html">Mapping 2016 Kent Fire Dept. Incidents</a></li>
+            <li><a href="../projects/seattle_health_equity.html">Mapping Seattle Health Equity Index</a></li>
+            <li><a href="../projects/manhattan_vegetation_test.html">Remote Sensing for Monitoring Vegetation</a></li>
+            <li><a href="../projects/Log_Jam_Analysis.html">Log Jam Analysis for UC SRB</a></li>
+            <li><a href="../projects/COVID_From_Space.html">Tracking COVID-19 Impacts with GEE</a></li>
+            <li><a href="../projects/Transit_Accessibility.html">Assessing Transit Accessibility</a></li>
+            <li><a href="../projects/myfinances_wrapper.html">UX Design for Financial Literacy</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="social-icons">
+                <a href="https://github.com/ZachPuckett" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/zachary-puckett-a2b4202b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="QGIS-project-container-1">
+        <header>
+            <h1>Mapping Projected Climate Change in the United States</h1>
+
+            <p>This project uses raster datasets to model projected changes in climate variables across the US, emphasizing the spatial variability of climate impacts.</p>
+            
+            <p>The final map visualizes absolute change in **projected winter precipitation** (2071–2090 vs. 1975–2005) and identifies geographic patterns related to climate vulnerability.</p>
+
+            <h3>Methodology</h3>
+            <ul>
+                <li>Loaded the <b>Ppt_winter_AbsChange.tif</b> raster dataset and applied a pseudocolor gradient to visualize magnitude of change.</li>
+                <li>Overlaid state boundaries with transparent fill and labeled each using the state name field.</li>
+                <li>Changed the projection to a suitable conic projection for the contiguous US (Albers Equal Area).</li>
+                <li>Added an inset map zoomed to the Pacific Northwest for localized analysis.</li>
+                <li>Included scale indicators and a legend to enhance interpretability and readability.</li>
+            </ul>
+
+            <p>Overall, the map highlights where winter precipitation is expected to change most and illustrates the importance of regional adaptation strategies.</p>
+        </header>
+    </div>
+
+    <div class="spacer-2"></div>
+
+    <div class="QGIS-project-container-2">
+        <img src="../images/Precipitation Changes/Mapping Precipitation Change Final.png" alt="Map of projected winter precipitation change in the US" width="100%">
+    </div>
+
+    <div class="timber-harvest-container"> 
+        <p><a href="../index.html#projects" class="back-button">← Back to Portfolio</a></p>
+    </div>
+
+    <footer>
+        <section id="contact">
+            <p>zachary.puckett@icloud.com</p>
+            <div class="social-icons">
+                <a href="https://github.com/ZachPuckett" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/zachary-puckett-a2b4202b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div> 
+        </section> 
+    </footer>
+
+</body>
+</html>
