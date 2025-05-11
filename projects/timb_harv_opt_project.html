@@ -50,6 +50,12 @@
                 key datasets: active timber harvest applications, DNR Habitat Conservation Lands, and orphaned or abandoned forest roads.</p>
             <h3>Methodology</h3>
             <ul>
+                <li>Used three spatial datasets from the Washington State Department of Natural Resources (DNR): 
+                  <i>Forest Practices Applications – Active Harvest by Classification</i> (timber harvest zones), 
+                  <i>Habitat Conservation Plan Lands</i> (DNR conservation lands), and 
+                  <i>Forest Practices Orphaned and Abandoned Roads</i> (unused forestry roads). 
+                     Data sourced via <a href="https://data-wadnr.opendata.arcgis.com/" target="_blank">Washington DNR Open Data Portal</a>.
+                </li>
                 <li>To create the map, I first filtered the timber harvest dataset to include only active applications expiring after January 1, 2026. </li>
                 <li>I then used the ‘Check Validity’ tool to separate and retain valid geometries.</li>
                 <li>A 1-mile buffer was applied around abandoned roads, and overlapping harvest areas were removed using the ‘Difference’ geoprocessing tool.</li>
