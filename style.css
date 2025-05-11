@@ -327,11 +327,6 @@ iframe {
     background: linear-gradient(135deg, #3a6186, #89253e);
 }
 
-/* .qgis-page-wrapper {
-    background: #EDEADE;
-    padding: 0 200px;
-    border: 2px dashed #EDEADE; /* just for testing! */
-
 .home-page-wrapper{
     background: linear-gradient(135deg, #3a6186, #89253e);
     padding: 0px; /* changed from 100px */
@@ -682,7 +677,7 @@ body.light-theme .back-button {
     
 .QGIS-project-container-2 {
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
     justify-content: center; /* center horizontally */
     align-items: center;    /*  center vertically */
     margin: 0px auto;
